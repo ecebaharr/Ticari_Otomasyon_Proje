@@ -42,5 +42,12 @@ namespace Ticari_Otomasyon_Proje
             frm.MdiParent = this;
             frm.Show();
         }
+
+        private void BtnKategoriİstatistik_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmKategoriİstatistik frm = new Formlar.FrmKategoriİstatistik();
+            frm.MdiParent = this;
+            frm.Show();
+        }
     }
 }

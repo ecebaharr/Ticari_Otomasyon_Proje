@@ -37,7 +37,7 @@
             this.barButtonItem4 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem5 = new DevExpress.XtraBars.BarButtonItem();
             this.BrnUrunistatistikleri = new DevExpress.XtraBars.BarButtonItem();
-            this.barButtonItem7 = new DevExpress.XtraBars.BarButtonItem();
+            this.BtnKategoriİstatistik = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem8 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem9 = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem10 = new DevExpress.XtraBars.BarButtonItem();
@@ -105,7 +105,7 @@
             this.barButtonItem4,
             this.barButtonItem5,
             this.BrnUrunistatistikleri,
-            this.barButtonItem7,
+            this.BtnKategoriİstatistik,
             this.barButtonItem8,
             this.barButtonItem9,
             this.barButtonItem10,
@@ -144,7 +144,7 @@
             this.ribbonPage5,
             this.ribbonPage6,
             this.ribbonPage7});
-            this.ribbonControl1.Size = new System.Drawing.Size(1209, 183);
+            this.ribbonControl1.Size = new System.Drawing.Size(1256, 183);
             this.ribbonControl1.ToolbarLocation = DevExpress.XtraBars.Ribbon.RibbonQuickAccessToolbarLocation.Above;
             // 
             // btnKategoriListesi
@@ -192,12 +192,13 @@
             this.BrnUrunistatistikleri.Name = "BrnUrunistatistikleri";
             this.BrnUrunistatistikleri.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.BrnUrunistatistikleri_ItemClick);
             // 
-            // barButtonItem7
+            // BtnKategoriİstatistik
             // 
-            this.barButtonItem7.Caption = "Kategori İstatistikleri";
-            this.barButtonItem7.Id = 7;
-            this.barButtonItem7.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barButtonItem7.ImageOptions.SvgImage")));
-            this.barButtonItem7.Name = "barButtonItem7";
+            this.BtnKategoriİstatistik.Caption = "Kategori İstatistikleri";
+            this.BtnKategoriİstatistik.Id = 7;
+            this.BtnKategoriİstatistik.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("barButtonItem7.ImageOptions.SvgImage")));
+            this.BtnKategoriİstatistik.Name = "BtnKategoriİstatistik";
+            this.BtnKategoriİstatistik.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.BtnKategoriİstatistik_ItemClick);
             // 
             // barButtonItem8
             // 
@@ -434,7 +435,7 @@
             // ribbonPageGroup4
             // 
             this.ribbonPageGroup4.ItemLinks.Add(this.BrnUrunistatistikleri);
-            this.ribbonPageGroup4.ItemLinks.Add(this.barButtonItem7);
+            this.ribbonPageGroup4.ItemLinks.Add(this.BtnKategoriİstatistik);
             this.ribbonPageGroup4.Name = "ribbonPageGroup4";
             // 
             // ribbonPageGroup5
@@ -561,7 +562,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1209, 678);
+            this.ClientSize = new System.Drawing.Size(1256, 819);
             this.Controls.Add(this.ribbonControl1);
             this.IsMdiContainer = true;
             this.Name = "Form1";
@@ -588,7 +589,7 @@
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup3;
         private DevExpress.XtraBars.BarButtonItem barButtonItem5;
         private DevExpress.XtraBars.BarButtonItem BrnUrunistatistikleri;
-        private DevExpress.XtraBars.BarButtonItem barButtonItem7;
+        private DevExpress.XtraBars.BarButtonItem BtnKategoriİstatistik;
         private DevExpress.XtraBars.BarButtonItem barButtonItem8;
         private DevExpress.XtraBars.BarButtonItem barButtonItem9;
         private DevExpress.XtraBars.Ribbon.RibbonPageGroup ribbonPageGroup4;

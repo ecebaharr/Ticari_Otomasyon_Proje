@@ -100,7 +100,7 @@
             this.panelControl1.Location = new System.Drawing.Point(12, 12);
             this.panelControl1.LookAndFeel.UseDefaultLookAndFeel = false;
             this.panelControl1.Name = "panelControl1";
-            this.panelControl1.Size = new System.Drawing.Size(232, 140);
+            this.panelControl1.Size = new System.Drawing.Size(271, 163);
             this.panelControl1.TabIndex = 0;
             // 
             // LblUrunSayisi
@@ -137,7 +137,7 @@
             this.panelControl2.Location = new System.Drawing.Point(330, 12);
             this.panelControl2.LookAndFeel.UseDefaultLookAndFeel = false;
             this.panelControl2.Name = "panelControl2";
-            this.panelControl2.Size = new System.Drawing.Size(232, 140);
+            this.panelControl2.Size = new System.Drawing.Size(271, 163);
             this.panelControl2.TabIndex = 2;
             // 
             // LblKategoriSayisi
@@ -174,7 +174,7 @@
             this.panelControl3.Location = new System.Drawing.Point(649, 12);
             this.panelControl3.LookAndFeel.UseDefaultLookAndFeel = false;
             this.panelControl3.Name = "panelControl3";
-            this.panelControl3.Size = new System.Drawing.Size(232, 140);
+            this.panelControl3.Size = new System.Drawing.Size(271, 163);
             this.panelControl3.TabIndex = 2;
             // 
             // LblMusteriSayisi
@@ -183,7 +183,7 @@
             this.LblMusteriSayisi.Appearance.ForeColor = System.Drawing.Color.White;
             this.LblMusteriSayisi.Appearance.Options.UseFont = true;
             this.LblMusteriSayisi.Appearance.Options.UseForeColor = true;
-            this.LblMusteriSayisi.Location = new System.Drawing.Point(105, 82);
+            this.LblMusteriSayisi.Location = new System.Drawing.Point(124, 82);
             this.LblMusteriSayisi.Name = "LblMusteriSayisi";
             this.LblMusteriSayisi.Size = new System.Drawing.Size(16, 36);
             this.LblMusteriSayisi.TabIndex = 1;
@@ -211,7 +211,7 @@
             this.panelControl4.Location = new System.Drawing.Point(963, 12);
             this.panelControl4.LookAndFeel.UseDefaultLookAndFeel = false;
             this.panelControl4.Name = "panelControl4";
-            this.panelControl4.Size = new System.Drawing.Size(232, 140);
+            this.panelControl4.Size = new System.Drawing.Size(271, 163);
             this.panelControl4.TabIndex = 2;
             this.panelControl4.Paint += new System.Windows.Forms.PaintEventHandler(this.panelControl4_Paint);
             // 
@@ -249,7 +249,7 @@
             this.panelControl5.Location = new System.Drawing.Point(12, 212);
             this.panelControl5.LookAndFeel.UseDefaultLookAndFeel = false;
             this.panelControl5.Name = "panelControl5";
-            this.panelControl5.Size = new System.Drawing.Size(232, 140);
+            this.panelControl5.Size = new System.Drawing.Size(271, 163);
             this.panelControl5.TabIndex = 3;
             // 
             // LblToplamStok
@@ -286,7 +286,7 @@
             this.panelControl6.Location = new System.Drawing.Point(330, 212);
             this.panelControl6.LookAndFeel.UseDefaultLookAndFeel = false;
             this.panelControl6.Name = "panelControl6";
-            this.panelControl6.Size = new System.Drawing.Size(232, 140);
+            this.panelControl6.Size = new System.Drawing.Size(271, 163);
             this.panelControl6.TabIndex = 2;
             // 
             // LblBeyazEsya
@@ -323,7 +323,7 @@
             this.panelControl7.Location = new System.Drawing.Point(649, 212);
             this.panelControl7.LookAndFeel.UseDefaultLookAndFeel = false;
             this.panelControl7.Name = "panelControl7";
-            this.panelControl7.Size = new System.Drawing.Size(232, 140);
+            this.panelControl7.Size = new System.Drawing.Size(271, 163);
             this.panelControl7.TabIndex = 2;
             // 
             // LblKucukEvAleti
@@ -332,7 +332,7 @@
             this.LblKucukEvAleti.Appearance.ForeColor = System.Drawing.Color.White;
             this.LblKucukEvAleti.Appearance.Options.UseFont = true;
             this.LblKucukEvAleti.Appearance.Options.UseForeColor = true;
-            this.LblKucukEvAleti.Location = new System.Drawing.Point(25, 82);
+            this.LblKucukEvAleti.Location = new System.Drawing.Point(124, 82);
             this.LblKucukEvAleti.Name = "LblKucukEvAleti";
             this.LblKucukEvAleti.Size = new System.Drawing.Size(16, 36);
             this.LblKucukEvAleti.TabIndex = 1;
@@ -360,7 +360,7 @@
             this.panelControl8.Location = new System.Drawing.Point(963, 212);
             this.panelControl8.LookAndFeel.UseDefaultLookAndFeel = false;
             this.panelControl8.Name = "panelControl8";
-            this.panelControl8.Size = new System.Drawing.Size(232, 140);
+            this.panelControl8.Size = new System.Drawing.Size(271, 163);
             this.panelControl8.TabIndex = 2;
             // 
             // LblKritikSeviye
@@ -397,7 +397,7 @@
             this.panelControl9.Location = new System.Drawing.Point(12, 402);
             this.panelControl9.LookAndFeel.UseDefaultLookAndFeel = false;
             this.panelControl9.Name = "panelControl9";
-            this.panelControl9.Size = new System.Drawing.Size(232, 140);
+            this.panelControl9.Size = new System.Drawing.Size(271, 163);
             this.panelControl9.TabIndex = 4;
             // 
             // LblEnYuksekFiyatliurun
@@ -434,7 +434,7 @@
             this.panelControl10.Location = new System.Drawing.Point(330, 402);
             this.panelControl10.LookAndFeel.UseDefaultLookAndFeel = false;
             this.panelControl10.Name = "panelControl10";
-            this.panelControl10.Size = new System.Drawing.Size(232, 140);
+            this.panelControl10.Size = new System.Drawing.Size(271, 163);
             this.panelControl10.TabIndex = 2;
             // 
             // LblEnDusukFiyatliurun
@@ -471,7 +471,7 @@
             this.panelControl11.Location = new System.Drawing.Point(649, 402);
             this.panelControl11.LookAndFeel.UseDefaultLookAndFeel = false;
             this.panelControl11.Name = "panelControl11";
-            this.panelControl11.Size = new System.Drawing.Size(232, 140);
+            this.panelControl11.Size = new System.Drawing.Size(271, 163);
             this.panelControl11.TabIndex = 2;
             // 
             // LblEnCokStok
@@ -508,7 +508,7 @@
             this.panelControl12.Location = new System.Drawing.Point(963, 402);
             this.panelControl12.LookAndFeel.UseDefaultLookAndFeel = false;
             this.panelControl12.Name = "panelControl12";
-            this.panelControl12.Size = new System.Drawing.Size(232, 140);
+            this.panelControl12.Size = new System.Drawing.Size(271, 163);
             this.panelControl12.TabIndex = 2;
             // 
             // LblEnAzStok
@@ -539,7 +539,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1207, 554);
+            this.ClientSize = new System.Drawing.Size(1264, 649);
             this.Controls.Add(this.panelControl12);
             this.Controls.Add(this.panelControl11);
             this.Controls.Add(this.panelControl10);
