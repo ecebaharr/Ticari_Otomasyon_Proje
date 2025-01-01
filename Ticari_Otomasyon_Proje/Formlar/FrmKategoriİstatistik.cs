@@ -31,10 +31,20 @@ namespace Ticari_Otomasyon_Proje.Formlar
                                           }).ToList();
             
 
-                chartControl1.Series["Kategori"].Points.AddPoint("Beyaz Eşya", 25);
-                chartControl1.Series["Kategori"].Points.AddPoint("Küçük Ev Aletleri", 14);
-                chartControl1.Series["Kategori"].Points.AddPoint("Bilgisayar", 18);
-            
+               
+
+            LblKategoriSayisi.Text=db.TBLKATEGORI.Count().ToString();
+                        LblSonEklenenKategori.Text = db.TBLKATEGORI.OrderByDescending(x=>x.ID).Select(y=> y.KATEGORİAD).FirstOrDefault().ToString();
+                        var deger = db.TBLURUN.GroupBy(x=> x.KATEGORI).OrderByDescending(z=>z.Count()).Select(y=>y.Key).FirstOrDefault();
+            LblEnFazlaÜrünKategori.Text = db.TBLKATEGORI.Where(x => x.ID == deger).Select(y => y.KATEGORİAD).FirstOrDefault().ToString();
+
+            var degerler = db.TBLURUN.ToList();
+            foreach(var x in degerler)
+            {
+                chartControl1.Series["Kategori"].Points.AddPoint(x.URUNAD,short.Parse(x.STOK.ToString()));
+            }
+
+
         }
     }
 }

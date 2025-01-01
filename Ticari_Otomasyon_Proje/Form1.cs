@@ -49,5 +49,17 @@ namespace Ticari_Otomasyon_Proje
             frm.MdiParent = this;
             frm.Show();
         }
+
+        private void BtnYeniKategori_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmKategoriEkle fr = new Formlar.FrmKategoriEkle();
+            fr.Show();
+        }
+
+        private void BtnYeniUrun_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmUrunEkle fr = new Formlar.FrmUrunEkle();
+            fr.Show();
+        }
     }
 }

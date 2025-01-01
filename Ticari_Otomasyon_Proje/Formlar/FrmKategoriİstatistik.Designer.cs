@@ -28,19 +28,19 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DevExpress.XtraCharts.XYDiagram xyDiagram1 = new DevExpress.XtraCharts.XYDiagram();
-            DevExpress.XtraCharts.Series series1 = new DevExpress.XtraCharts.Series();
+            DevExpress.XtraCharts.XYDiagram xyDiagram2 = new DevExpress.XtraCharts.XYDiagram();
+            DevExpress.XtraCharts.Series series2 = new DevExpress.XtraCharts.Series();
             this.gridControl1 = new DevExpress.XtraGrid.GridControl();
             this.gridView1 = new DevExpress.XtraGrid.Views.Grid.GridView();
             this.panelControl1 = new DevExpress.XtraEditors.PanelControl();
+            this.LblKategoriSayisi = new DevExpress.XtraEditors.LabelControl();
             this.bb = new DevExpress.XtraEditors.LabelControl();
             this.panelControl2 = new DevExpress.XtraEditors.PanelControl();
-            this.panelControl3 = new DevExpress.XtraEditors.PanelControl();
+            this.LblSonEklenenKategori = new DevExpress.XtraEditors.LabelControl();
             this.labelControl1 = new DevExpress.XtraEditors.LabelControl();
+            this.panelControl3 = new DevExpress.XtraEditors.PanelControl();
+            this.LblEnFazlaÜrünKategori = new DevExpress.XtraEditors.LabelControl();
             this.labelControl2 = new DevExpress.XtraEditors.LabelControl();
-            this.LblUrunSayisi = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl3 = new DevExpress.XtraEditors.LabelControl();
-            this.labelControl4 = new DevExpress.XtraEditors.LabelControl();
             this.chartControl1 = new DevExpress.XtraCharts.ChartControl();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
@@ -51,8 +51,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).BeginInit();
             this.panelControl3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(series1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(series2)).BeginInit();
             this.SuspendLayout();
             // 
             // gridControl1
@@ -75,7 +75,7 @@
             this.panelControl1.Appearance.BackColor = System.Drawing.Color.Yellow;
             this.panelControl1.Appearance.Options.UseBackColor = true;
             this.panelControl1.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.panelControl1.Controls.Add(this.LblUrunSayisi);
+            this.panelControl1.Controls.Add(this.LblKategoriSayisi);
             this.panelControl1.Controls.Add(this.bb);
             this.panelControl1.Location = new System.Drawing.Point(394, 12);
             this.panelControl1.LookAndFeel.SkinMaskColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
@@ -84,6 +84,18 @@
             this.panelControl1.Name = "panelControl1";
             this.panelControl1.Size = new System.Drawing.Size(263, 138);
             this.panelControl1.TabIndex = 1;
+            // 
+            // LblKategoriSayisi
+            // 
+            this.LblKategoriSayisi.Appearance.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.LblKategoriSayisi.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.LblKategoriSayisi.Appearance.Options.UseFont = true;
+            this.LblKategoriSayisi.Appearance.Options.UseForeColor = true;
+            this.LblKategoriSayisi.Location = new System.Drawing.Point(88, 81);
+            this.LblKategoriSayisi.Name = "LblKategoriSayisi";
+            this.LblKategoriSayisi.Size = new System.Drawing.Size(16, 36);
+            this.LblKategoriSayisi.TabIndex = 4;
+            this.LblKategoriSayisi.Text = "0";
             // 
             // bb
             // 
@@ -106,7 +118,7 @@
             this.panelControl2.Appearance.Options.UseBackColor = true;
             this.panelControl2.Appearance.Options.UseBorderColor = true;
             this.panelControl2.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.panelControl2.Controls.Add(this.labelControl3);
+            this.panelControl2.Controls.Add(this.LblSonEklenenKategori);
             this.panelControl2.Controls.Add(this.labelControl1);
             this.panelControl2.Location = new System.Drawing.Point(663, 12);
             this.panelControl2.LookAndFeel.SkinMaskColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
@@ -116,22 +128,17 @@
             this.panelControl2.Size = new System.Drawing.Size(263, 138);
             this.panelControl2.TabIndex = 2;
             // 
-            // panelControl3
+            // LblSonEklenenKategori
             // 
-            this.panelControl3.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.panelControl3.Appearance.BorderColor = System.Drawing.Color.White;
-            this.panelControl3.Appearance.Options.UseBackColor = true;
-            this.panelControl3.Appearance.Options.UseBorderColor = true;
-            this.panelControl3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
-            this.panelControl3.Controls.Add(this.labelControl4);
-            this.panelControl3.Controls.Add(this.labelControl2);
-            this.panelControl3.Location = new System.Drawing.Point(932, 12);
-            this.panelControl3.LookAndFeel.SkinMaskColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            this.panelControl3.LookAndFeel.SkinName = "DevExpress Style";
-            this.panelControl3.LookAndFeel.UseDefaultLookAndFeel = false;
-            this.panelControl3.Name = "panelControl3";
-            this.panelControl3.Size = new System.Drawing.Size(263, 138);
-            this.panelControl3.TabIndex = 3;
+            this.LblSonEklenenKategori.Appearance.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.LblSonEklenenKategori.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.LblSonEklenenKategori.Appearance.Options.UseFont = true;
+            this.LblSonEklenenKategori.Appearance.Options.UseForeColor = true;
+            this.LblSonEklenenKategori.Location = new System.Drawing.Point(54, 81);
+            this.LblSonEklenenKategori.Name = "LblSonEklenenKategori";
+            this.LblSonEklenenKategori.Size = new System.Drawing.Size(16, 36);
+            this.LblSonEklenenKategori.TabIndex = 5;
+            this.LblSonEklenenKategori.Text = "0";
             // 
             // labelControl1
             // 
@@ -147,6 +154,35 @@
             this.labelControl1.TabIndex = 2;
             this.labelControl1.Text = "Son Eklenen Kategori\r\n";
             // 
+            // panelControl3
+            // 
+            this.panelControl3.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.panelControl3.Appearance.BorderColor = System.Drawing.Color.White;
+            this.panelControl3.Appearance.Options.UseBackColor = true;
+            this.panelControl3.Appearance.Options.UseBorderColor = true;
+            this.panelControl3.AutoSizeMode = System.Windows.Forms.AutoSizeMode.GrowAndShrink;
+            this.panelControl3.Controls.Add(this.LblEnFazlaÜrünKategori);
+            this.panelControl3.Controls.Add(this.labelControl2);
+            this.panelControl3.Location = new System.Drawing.Point(932, 12);
+            this.panelControl3.LookAndFeel.SkinMaskColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            this.panelControl3.LookAndFeel.SkinName = "DevExpress Style";
+            this.panelControl3.LookAndFeel.UseDefaultLookAndFeel = false;
+            this.panelControl3.Name = "panelControl3";
+            this.panelControl3.Size = new System.Drawing.Size(263, 138);
+            this.panelControl3.TabIndex = 3;
+            // 
+            // LblEnFazlaÜrünKategori
+            // 
+            this.LblEnFazlaÜrünKategori.Appearance.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.LblEnFazlaÜrünKategori.Appearance.ForeColor = System.Drawing.Color.Black;
+            this.LblEnFazlaÜrünKategori.Appearance.Options.UseFont = true;
+            this.LblEnFazlaÜrünKategori.Appearance.Options.UseForeColor = true;
+            this.LblEnFazlaÜrünKategori.Location = new System.Drawing.Point(44, 81);
+            this.LblEnFazlaÜrünKategori.Name = "LblEnFazlaÜrünKategori";
+            this.LblEnFazlaÜrünKategori.Size = new System.Drawing.Size(16, 36);
+            this.LblEnFazlaÜrünKategori.TabIndex = 6;
+            this.LblEnFazlaÜrünKategori.Text = "0";
+            // 
             // labelControl2
             // 
             this.labelControl2.Appearance.BackColor = System.Drawing.Color.Transparent;
@@ -161,53 +197,17 @@
             this.labelControl2.TabIndex = 3;
             this.labelControl2.Text = "En Fazla Ürünlü Kategori";
             // 
-            // LblUrunSayisi
-            // 
-            this.LblUrunSayisi.Appearance.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.LblUrunSayisi.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.LblUrunSayisi.Appearance.Options.UseFont = true;
-            this.LblUrunSayisi.Appearance.Options.UseForeColor = true;
-            this.LblUrunSayisi.Location = new System.Drawing.Point(126, 81);
-            this.LblUrunSayisi.Name = "LblUrunSayisi";
-            this.LblUrunSayisi.Size = new System.Drawing.Size(16, 36);
-            this.LblUrunSayisi.TabIndex = 4;
-            this.LblUrunSayisi.Text = "0";
-            // 
-            // labelControl3
-            // 
-            this.labelControl3.Appearance.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.labelControl3.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.labelControl3.Appearance.Options.UseFont = true;
-            this.labelControl3.Appearance.Options.UseForeColor = true;
-            this.labelControl3.Location = new System.Drawing.Point(119, 81);
-            this.labelControl3.Name = "labelControl3";
-            this.labelControl3.Size = new System.Drawing.Size(16, 36);
-            this.labelControl3.TabIndex = 5;
-            this.labelControl3.Text = "0";
-            // 
-            // labelControl4
-            // 
-            this.labelControl4.Appearance.Font = new System.Drawing.Font("Tahoma", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.labelControl4.Appearance.ForeColor = System.Drawing.Color.Black;
-            this.labelControl4.Appearance.Options.UseFont = true;
-            this.labelControl4.Appearance.Options.UseForeColor = true;
-            this.labelControl4.Location = new System.Drawing.Point(114, 81);
-            this.labelControl4.Name = "labelControl4";
-            this.labelControl4.Size = new System.Drawing.Size(16, 36);
-            this.labelControl4.TabIndex = 6;
-            this.labelControl4.Text = "0";
-            // 
             // chartControl1
             // 
-            xyDiagram1.AxisX.VisibleInPanesSerializable = "-1";
-            xyDiagram1.AxisY.VisibleInPanesSerializable = "-1";
-            this.chartControl1.Diagram = xyDiagram1;
+            xyDiagram2.AxisX.VisibleInPanesSerializable = "-1";
+            xyDiagram2.AxisY.VisibleInPanesSerializable = "-1";
+            this.chartControl1.Diagram = xyDiagram2;
             this.chartControl1.Location = new System.Drawing.Point(394, 155);
             this.chartControl1.Name = "chartControl1";
-            series1.Name = "Kategori";
-            series1.SeriesID = 2;
+            series2.Name = "Kategori";
+            series2.SeriesID = 2;
             this.chartControl1.SeriesSerializable = new DevExpress.XtraCharts.Series[] {
-        series1};
+        series2};
             this.chartControl1.Size = new System.Drawing.Size(801, 296);
             this.chartControl1.TabIndex = 4;
             // 
@@ -235,8 +235,8 @@
             ((System.ComponentModel.ISupportInitialize)(this.panelControl3)).EndInit();
             this.panelControl3.ResumeLayout(false);
             this.panelControl3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(series1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(xyDiagram2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(series2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chartControl1)).EndInit();
             this.ResumeLayout(false);
 
@@ -252,9 +252,9 @@
         private DevExpress.XtraEditors.LabelControl labelControl1;
         private DevExpress.XtraEditors.PanelControl panelControl3;
         private DevExpress.XtraEditors.LabelControl labelControl2;
-        private DevExpress.XtraEditors.LabelControl LblUrunSayisi;
-        private DevExpress.XtraEditors.LabelControl labelControl3;
-        private DevExpress.XtraEditors.LabelControl labelControl4;
+        private DevExpress.XtraEditors.LabelControl LblKategoriSayisi;
+        private DevExpress.XtraEditors.LabelControl LblSonEklenenKategori;
+        private DevExpress.XtraEditors.LabelControl LblEnFazlaÜrünKategori;
         private DevExpress.XtraCharts.ChartControl chartControl1;
     }
 }
