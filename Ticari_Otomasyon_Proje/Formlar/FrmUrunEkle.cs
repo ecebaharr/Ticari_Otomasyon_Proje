@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DevExpress.XtraEditors;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -31,7 +32,22 @@ namespace Ticari_Otomasyon_Proje.Formlar
 
         private void BtnKaydet_Click(object sender, EventArgs e)
         {
+            TBLURUN t = new TBLURUN();
+            t.URUNAD = TxtAd.Text;
+            t.STOK = short.Parse(TxtStok.Text);
+            t.ALISFIYAT = decimal.Parse(TxtAlisFiyat.Text);
+            t.SATISFIYAT = decimal.Parse(TxtSatisFiyat.Text);
+            t.KATEGORI = int.Parse(lookUpEdit1.EditValue.ToString());
+            db.TBLURUN.Add(t);
+            db.SaveChanges();
 
+            XtraMessageBox.Show("Ürün ekleme işlemi başarıyla gerçekleşti.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+        }
+
+        private void BtnVazgec_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

@@ -64,6 +64,7 @@ namespace Ticari_Otomasyon_Proje
 
             XtraMessageBox.Show("Ürün ekleme işlemi başarıyla gerçekleşti.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
             urunler();
+            BtnListele_Click(sender, e);
 
         }
 

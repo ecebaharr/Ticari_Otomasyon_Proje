@@ -35,12 +35,16 @@ namespace Ticari_Otomasyon_Proje.Formlar
                 db.SaveChanges();
 
                 XtraMessageBox.Show("Kategori ekleme işlemi başarılı bir şekilde gerçekleşti.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                this.Close();
                 
             } 
+
             catch (Exception)
             {
                 XtraMessageBox.Show("Hatalı ekleme işlemi gerçekleştirdiniz. Lütfen kategori adını boş bırakmayınız ya da 20 karakterden fazla girmeyiniz.", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
+
         }
     }
 }

@@ -45,6 +45,7 @@ namespace Ticari_Otomasyon_Proje
                 db.SaveChanges();
 
                 XtraMessageBox.Show("Kategori ekleme işlemi başarılı.", "Bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                BtnListele_Click(sender, e);
             }
             else
             {
