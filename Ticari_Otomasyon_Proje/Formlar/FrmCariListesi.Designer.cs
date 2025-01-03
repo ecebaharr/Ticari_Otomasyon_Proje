@@ -36,10 +36,10 @@
             this.BtnSil = new DevExpress.XtraEditors.SimpleButton();
             this.BtnEkle = new DevExpress.XtraEditors.SimpleButton();
             this.BtnListele = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton4 = new DevExpress.XtraEditors.SimpleButton();
+            this.Btnİptal = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton3 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
+            this.BtnAra = new DevExpress.XtraEditors.SimpleButton();
+            this.BtnYeniFormdaCariListesi = new DevExpress.XtraEditors.SimpleButton();
             this.lookUpEditIlce = new DevExpress.XtraEditors.LookUpEdit();
             this.lookUpEditIl = new DevExpress.XtraEditors.LookUpEdit();
             this.TxtVergiDairesi = new DevExpress.XtraEditors.TextEdit();
@@ -99,10 +99,10 @@
             this.groupControl1.Controls.Add(this.BtnSil);
             this.groupControl1.Controls.Add(this.BtnEkle);
             this.groupControl1.Controls.Add(this.BtnListele);
-            this.groupControl1.Controls.Add(this.simpleButton4);
+            this.groupControl1.Controls.Add(this.Btnİptal);
             this.groupControl1.Controls.Add(this.simpleButton3);
-            this.groupControl1.Controls.Add(this.simpleButton2);
-            this.groupControl1.Controls.Add(this.simpleButton1);
+            this.groupControl1.Controls.Add(this.BtnAra);
+            this.groupControl1.Controls.Add(this.BtnYeniFormdaCariListesi);
             this.groupControl1.Controls.Add(this.lookUpEditIlce);
             this.groupControl1.Controls.Add(this.lookUpEditIl);
             this.groupControl1.Controls.Add(this.TxtVergiDairesi);
@@ -132,7 +132,7 @@
             // 
             this.BtnGüncelle.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnGüncelle.Appearance.Options.UseFont = true;
-            this.BtnGüncelle.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton5.ImageOptions.Image")));
+            this.BtnGüncelle.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnGüncelle.ImageOptions.Image")));
             this.BtnGüncelle.Location = new System.Drawing.Point(842, 173);
             this.BtnGüncelle.Name = "BtnGüncelle";
             this.BtnGüncelle.Size = new System.Drawing.Size(188, 35);
@@ -144,7 +144,7 @@
             // 
             this.BtnSil.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnSil.Appearance.Options.UseFont = true;
-            this.BtnSil.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton6.ImageOptions.Image")));
+            this.BtnSil.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnSil.ImageOptions.Image")));
             this.BtnSil.Location = new System.Drawing.Point(842, 132);
             this.BtnSil.Name = "BtnSil";
             this.BtnSil.Size = new System.Drawing.Size(188, 35);
@@ -156,7 +156,7 @@
             // 
             this.BtnEkle.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnEkle.Appearance.Options.UseFont = true;
-            this.BtnEkle.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton7.ImageOptions.Image")));
+            this.BtnEkle.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnEkle.ImageOptions.Image")));
             this.BtnEkle.Location = new System.Drawing.Point(842, 91);
             this.BtnEkle.Name = "BtnEkle";
             this.BtnEkle.Size = new System.Drawing.Size(188, 35);
@@ -168,7 +168,7 @@
             // 
             this.BtnListele.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnListele.Appearance.Options.UseFont = true;
-            this.BtnListele.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton8.ImageOptions.Image")));
+            this.BtnListele.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnListele.ImageOptions.Image")));
             this.BtnListele.Location = new System.Drawing.Point(842, 50);
             this.BtnListele.Name = "BtnListele";
             this.BtnListele.Size = new System.Drawing.Size(188, 35);
@@ -176,16 +176,17 @@
             this.BtnListele.Text = "Listele";
             this.BtnListele.Click += new System.EventHandler(this.BtnListele_Click);
             // 
-            // simpleButton4
+            // Btnİptal
             // 
-            this.simpleButton4.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.simpleButton4.Appearance.Options.UseFont = true;
-            this.simpleButton4.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton4.ImageOptions.Image")));
-            this.simpleButton4.Location = new System.Drawing.Point(1046, 173);
-            this.simpleButton4.Name = "simpleButton4";
-            this.simpleButton4.Size = new System.Drawing.Size(211, 35);
-            this.simpleButton4.TabIndex = 25;
-            this.simpleButton4.Text = "İptal";
+            this.Btnİptal.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Btnİptal.Appearance.Options.UseFont = true;
+            this.Btnİptal.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Btnİptal.ImageOptions.Image")));
+            this.Btnİptal.Location = new System.Drawing.Point(1046, 173);
+            this.Btnİptal.Name = "Btnİptal";
+            this.Btnİptal.Size = new System.Drawing.Size(211, 35);
+            this.Btnİptal.TabIndex = 25;
+            this.Btnİptal.Text = "İptal";
+            this.Btnİptal.Click += new System.EventHandler(this.Btnİptal_Click);
             // 
             // simpleButton3
             // 
@@ -198,27 +199,29 @@
             this.simpleButton3.TabIndex = 24;
             this.simpleButton3.Text = "Carileri Yazdır";
             // 
-            // simpleButton2
+            // BtnAra
             // 
-            this.simpleButton2.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.simpleButton2.Appearance.Options.UseFont = true;
-            this.simpleButton2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton2.ImageOptions.Image")));
-            this.simpleButton2.Location = new System.Drawing.Point(1046, 91);
-            this.simpleButton2.Name = "simpleButton2";
-            this.simpleButton2.Size = new System.Drawing.Size(211, 35);
-            this.simpleButton2.TabIndex = 23;
-            this.simpleButton2.Text = "Ara";
+            this.BtnAra.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.BtnAra.Appearance.Options.UseFont = true;
+            this.BtnAra.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnAra.ImageOptions.Image")));
+            this.BtnAra.Location = new System.Drawing.Point(1046, 91);
+            this.BtnAra.Name = "BtnAra";
+            this.BtnAra.Size = new System.Drawing.Size(211, 35);
+            this.BtnAra.TabIndex = 23;
+            this.BtnAra.Text = "Ara";
+            this.BtnAra.Click += new System.EventHandler(this.BtnAra_Click);
             // 
-            // simpleButton1
+            // BtnYeniFormdaCariListesi
             // 
-            this.simpleButton1.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.simpleButton1.Appearance.Options.UseFont = true;
-            this.simpleButton1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
-            this.simpleButton1.Location = new System.Drawing.Point(1046, 50);
-            this.simpleButton1.Name = "simpleButton1";
-            this.simpleButton1.Size = new System.Drawing.Size(211, 35);
-            this.simpleButton1.TabIndex = 22;
-            this.simpleButton1.Text = "Yeni Sayfada Cari Listesi";
+            this.BtnYeniFormdaCariListesi.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.BtnYeniFormdaCariListesi.Appearance.Options.UseFont = true;
+            this.BtnYeniFormdaCariListesi.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnYeniFormdaCariListesi.ImageOptions.Image")));
+            this.BtnYeniFormdaCariListesi.Location = new System.Drawing.Point(1046, 50);
+            this.BtnYeniFormdaCariListesi.Name = "BtnYeniFormdaCariListesi";
+            this.BtnYeniFormdaCariListesi.Size = new System.Drawing.Size(211, 35);
+            this.BtnYeniFormdaCariListesi.TabIndex = 22;
+            this.BtnYeniFormdaCariListesi.Text = "Yeni Sayfada Cari Listesi";
+            this.BtnYeniFormdaCariListesi.Click += new System.EventHandler(this.BtnYeniFormdaCariListesi_Click);
             // 
             // lookUpEditIlce
             // 
@@ -432,6 +435,7 @@
             this.Controls.Add(this.groupControl1);
             this.Controls.Add(this.gridControl1);
             this.Name = "FrmCariListesi";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmCariListesi";
             this.Load += new System.EventHandler(this.FrmCariListesi_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
@@ -482,9 +486,9 @@
         private DevExpress.XtraEditors.SimpleButton BtnSil;
         private DevExpress.XtraEditors.SimpleButton BtnEkle;
         private DevExpress.XtraEditors.SimpleButton BtnListele;
-        private DevExpress.XtraEditors.SimpleButton simpleButton4;
+        private DevExpress.XtraEditors.SimpleButton Btnİptal;
         private DevExpress.XtraEditors.SimpleButton simpleButton3;
-        private DevExpress.XtraEditors.SimpleButton simpleButton2;
-        private DevExpress.XtraEditors.SimpleButton simpleButton1;
+        private DevExpress.XtraEditors.SimpleButton BtnAra;
+        private DevExpress.XtraEditors.SimpleButton BtnYeniFormdaCariListesi;
     }
 }

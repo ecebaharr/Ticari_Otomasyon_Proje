@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Ticari_Otomasyon_Proje.Formlar;
 
 namespace Ticari_Otomasyon_Proje
 {
@@ -67,6 +68,33 @@ namespace Ticari_Otomasyon_Proje
             Formlar.FrmCariListesi fr = new Formlar.FrmCariListesi();
             fr.MdiParent = this;
             fr.Show();
+        }
+
+        private void BtnYeniCari_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            FrmCariKart fr = new FrmCariKart();
+            fr.Show();
+        }
+
+        private void BtnCariistatistik_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmCariistatistik frm = new Formlar.FrmCariistatistik();
+            frm.MdiParent= this;
+            frm.Show();
+        }
+
+        private void BtnCariHareket_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmCariHareket frm = new Formlar.FrmCariHareket();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void BtnPersonelListesi_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmPersonel frm = new Formlar.FrmPersonel();
+            frm.MdiParent = this;
+            frm.Show();
         }
     }
 }

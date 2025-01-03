@@ -169,6 +169,34 @@ namespace Ticari_Otomasyon_Proje.Formlar
             BtnListele_Click(sender, e);
         }
 
+        private void BtnYeniFormdaCariListesi_Click(object sender, EventArgs e)
+        {
+            FrmCariListesi fr = new FrmCariListesi();
+            fr.Show();
+        }
 
+        private void BtnAra_Click(object sender, EventArgs e)
+        {
+            gridControl1.DataSource = (from x in db.TBLCARI
+                                       select new
+                                       {
+                                           x.CARIID,
+                                           x.AD,
+                                           x.SOYAD,
+                                           x.IL,
+                                           x.ILCE,
+                                           x.ADRES,
+                                           x.MAIL,
+                                           x.TC,
+                                           x.TELEFON,
+                                           x.VERGIDAIRESI,
+                                       }
+                                       ).Where(x=>x.AD == TxtAd.Text || x.IL == lookUpEditIl.Text).ToList();
+        }
+
+        private void Btnİptal_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
