@@ -367,7 +367,7 @@
             // 
             this.Btnİptal.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Btnİptal.Appearance.Options.UseFont = true;
-            this.Btnİptal.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnSil.ImageOptions.Image")));
+            this.Btnİptal.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Btnİptal.ImageOptions.Image")));
             this.Btnİptal.Location = new System.Drawing.Point(167, 446);
             this.Btnİptal.Name = "Btnİptal";
             this.Btnİptal.Size = new System.Drawing.Size(202, 41);

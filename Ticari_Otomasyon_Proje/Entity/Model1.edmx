@@ -4,7 +4,7 @@
   <edmx:Runtime>
     <!-- SSDL content -->
     <edmx:StorageModels>
-      <Schema Namespace="DbTicariOtomasyonModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+    <Schema Namespace="DbTicariOtomasyonModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
         <EntityType Name="sysdiagrams">
           <Key>
             <PropertyRef Name="diagram_id" />
@@ -107,14 +107,15 @@ warning 6002: The table/view 'DbTicariOtomasyon.dbo.TBLFIRMAHAREKET' does not ha
           <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="SEHIR" Type="varchar" MaxLength="50" />
         </EntityType>
-        <!--Errors Found During Generation:
-warning 6002: The table/view 'DbTicariOtomasyon.dbo.TBLKASA' does not have a primary key defined. The key has been inferred and the definition was created as a read-only table/view.-->
         <EntityType Name="TBLKASA">
           <Key>
             <PropertyRef Name="ID" />
           </Key>
           <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="TUTAR" Type="decimal" Precision="18" Scale="2" />
+          <Property Name="TUR" Type="varchar" MaxLength="5" />
+          <Property Name="ACIKLAMA" Type="varchar" MaxLength="250" />
+          <Property Name="TARİH" Type="date" />
         </EntityType>
         <EntityType Name="TBLKATEGORI">
           <Key>
@@ -260,6 +261,7 @@ warning 6002: The table/view 'DbTicariOtomasyon.dbo.TBLKASA' does not have a pri
           <EntitySet Name="TBLGIDERLER" EntityType="Self.TBLGIDERLER" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TBLILCELER" EntityType="Self.TBLILCELER" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TBLILLER" EntityType="Self.TBLILLER" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TBLKASA" EntityType="Self.TBLKASA" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TBLKATEGORI" EntityType="Self.TBLKATEGORI" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TBLNOTLAR" EntityType="Self.TBLNOTLAR" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TBLPERSONEL" EntityType="Self.TBLPERSONEL" Schema="dbo" store:Type="Tables" />
@@ -276,12 +278,6 @@ warning 6002: The table/view 'DbTicariOtomasyon.dbo.TBLKASA' does not have a pri
     [TBLFIRMAHAREKET].[TOPLAM] AS [TOPLAM], 
     [TBLFIRMAHAREKET].[ACIKLAMA] AS [ACIKLAMA]
     FROM [dbo].[TBLFIRMAHAREKET] AS [TBLFIRMAHAREKET]</DefiningQuery>
-          </EntitySet>
-          <EntitySet Name="TBLKASA" EntityType="Self.TBLKASA" store:Type="Tables" store:Schema="dbo">
-            <DefiningQuery>SELECT 
-    [TBLKASA].[ID] AS [ID], 
-    [TBLKASA].[TUTAR] AS [TUTAR]
-    FROM [dbo].[TBLKASA] AS [TBLKASA]</DefiningQuery>
           </EntitySet>
           <AssociationSet Name="FK_TBLCARIHAREKET_TBLCARI" Association="Self.FK_TBLCARIHAREKET_TBLCARI">
             <End Role="TBLCARI" EntitySet="TBLCARI" />
@@ -316,8 +312,7 @@ warning 6002: The table/view 'DbTicariOtomasyon.dbo.TBLKASA' does not have a pri
             <End Role="TBLURUN" EntitySet="TBLURUN" />
           </AssociationSet>
         </EntityContainer>
-      </Schema>
-    </edmx:StorageModels>
+      </Schema></edmx:StorageModels>
     <!-- CSDL content -->
     <edmx:ConceptualModels>
       <Schema Namespace="DbTicariOtomasyonModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
@@ -482,6 +477,9 @@ warning 6002: The table/view 'DbTicariOtomasyon.dbo.TBLKASA' does not have a pri
           </Key>
           <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="TUTAR" Type="Decimal" Precision="18" Scale="2" />
+          <Property Name="TUR" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+          <Property Name="ACIKLAMA" Type="String" MaxLength="250" FixedLength="false" Unicode="false" />
+          <Property Name="TARİH" Type="DateTime" Precision="0" />
         </EntityType>
         <Association Name="FK_TBLCARIHAREKET_TBLCARI">
           <End Role="TBLCARI" Type="Self.TBLCARI" Multiplicity="0..1" />
@@ -788,6 +786,9 @@ warning 6002: The table/view 'DbTicariOtomasyon.dbo.TBLKASA' does not have a pri
           <EntitySetMapping Name="TBLKASA">
             <EntityTypeMapping TypeName="DbTicariOtomasyonModel.TBLKASA">
               <MappingFragment StoreEntitySet="TBLKASA">
+                <ScalarProperty Name="TARİH" ColumnName="TARİH" />
+                <ScalarProperty Name="ACIKLAMA" ColumnName="ACIKLAMA" />
+                <ScalarProperty Name="TUR" ColumnName="TUR" />
                 <ScalarProperty Name="ID" ColumnName="ID" />
                 <ScalarProperty Name="TUTAR" ColumnName="TUTAR" />
               </MappingFragment>

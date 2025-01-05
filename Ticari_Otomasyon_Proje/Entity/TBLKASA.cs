@@ -16,5 +16,8 @@ namespace Ticari_Otomasyon_Proje.Entity
     {
         public int ID { get; set; }
         public Nullable<decimal> TUTAR { get; set; }
+        public string TUR { get; set; }
+        public string ACIKLAMA { get; set; }
+        public Nullable<System.DateTime> TARİH { get; set; }
     }
 }

@@ -38,21 +38,16 @@
             this.gridColumn4 = new DevExpress.XtraGrid.Columns.GridColumn();
             this.repositoryItemLookUpEdit1 = new DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.toolStripMenuItemSil = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItemİptal = new System.Windows.Forms.ToolStripMenuItem();
-            this.toolStripMenuItemCikis = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemLookUpEdit1)).BeginInit();
-            this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // gridControl1
             // 
             this.gridControl1.DataSource = this.bindingSource1;
             this.gridControl1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gridControl1.EmbeddedNavigator.ContextMenuStrip = this.contextMenuStrip1;
             this.gridControl1.EmbeddedNavigator.Cursor = System.Windows.Forms.Cursors.Default;
             this.gridControl1.Location = new System.Drawing.Point(0, 0);
             this.gridControl1.MainView = this.gridView1;
@@ -131,33 +126,8 @@
             // contextMenuStrip1
             // 
             this.contextMenuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
-            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.toolStripMenuItemSil,
-            this.toolStripMenuItemİptal,
-            this.toolStripMenuItemCikis});
             this.contextMenuStrip1.Name = "contextMenuStrip1";
-            this.contextMenuStrip1.Size = new System.Drawing.Size(109, 76);
-            this.contextMenuStrip1.Opening += new System.ComponentModel.CancelEventHandler(this.contextMenuStrip1_Opening);
-            // 
-            // toolStripMenuItemSil
-            // 
-            this.toolStripMenuItemSil.Name = "toolStripMenuItemSil";
-            this.toolStripMenuItemSil.Size = new System.Drawing.Size(108, 24);
-            this.toolStripMenuItemSil.Text = "Sil";
-            // 
-            // toolStripMenuItemİptal
-            // 
-            this.toolStripMenuItemİptal.Name = "toolStripMenuItemİptal";
-            this.toolStripMenuItemİptal.Size = new System.Drawing.Size(108, 24);
-            this.toolStripMenuItemİptal.Text = "İptal";
-            // 
-            // toolStripMenuItemCikis
-            // 
-            this.toolStripMenuItemCikis.BackColor = System.Drawing.SystemColors.ActiveBorder;
-            this.toolStripMenuItemCikis.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.toolStripMenuItemCikis.Name = "toolStripMenuItemCikis";
-            this.toolStripMenuItemCikis.Size = new System.Drawing.Size(108, 24);
-            this.toolStripMenuItemCikis.Text = "Çıkış";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
             // FrmPersonel
             // 
@@ -174,7 +144,6 @@
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.repositoryItemLookUpEdit1)).EndInit();
-            this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -190,8 +159,5 @@
         private DevExpress.XtraGrid.Columns.GridColumn gridColumn4;
         private DevExpress.XtraEditors.Repository.RepositoryItemLookUpEdit repositoryItemLookUpEdit1;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItemSil;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItemİptal;
-        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItemCikis;
     }
 }

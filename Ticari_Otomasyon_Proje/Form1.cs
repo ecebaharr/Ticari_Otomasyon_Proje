@@ -1,4 +1,5 @@
-﻿using System;
+﻿using DevExpress.XtraEditors;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -93,6 +94,114 @@ namespace Ticari_Otomasyon_Proje
         private void BtnPersonelListesi_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             Formlar.FrmPersonel frm = new Formlar.FrmPersonel();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void BtnDepartman_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmDepartman frm = new Formlar.FrmDepartman();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void BtnKasa_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmKasaListesi frm = new Formlar.FrmKasaListesi();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void BtnGider_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmGider frm = new Formlar.FrmGider();
+
+            frm.Show();
+        }
+
+        private void BtnKurlar_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmKurlar frm = new Formlar.FrmKurlar();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void BtnDonusum_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+
+            Formlar.FrmDonusum frm = new Formlar.FrmDonusum();            
+            frm.Show();
+            
+
+        }
+
+        private void BtnAjanda_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmAjanda frm = new Formlar.FrmAjanda();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void BtnYeniNot_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmYeniNot frm = new Formlar.FrmYeniNot();
+            
+            frm.Show();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            this.IsMdiContainer = true;
+        }
+
+        private void BtnExcel_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            System.Diagnostics.Process.Start("excel");
+
+        }
+
+        private void BtnWord_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            System.Diagnostics.Process.Start("winword");
+        }
+
+        private void barButtonItem32_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            System.Diagnostics.Process.Start("calc.exe");
+        }
+
+        private void BtnGauge_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+
+        }
+
+        private void ribbonControl1_Click(object sender, EventArgs e)
+        {
+            // Ribbon içerisinde gauge butonunun bulunduğu yerde, ilgili butonun visibility değerini false yapabilirsiniz.
+            ribbonPageGroup1.ItemLinks.Remove(BtnGauge);  // gaugeButtonItem butonunun adıdır.
+
+        }
+
+        private void BtnYoutube_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmYoutube frm = new Formlar.FrmYoutube();
+            frm.MdiParent = this;
+            frm.Show();
+        }
+
+        private void BtnYardim_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+
+            XtraMessageBox.Show("Kullandığınız otomasyonla ilgili her türlü arıza ve gördüğünüz eksiklikler için bize ticariotomasyon23@gmail.com mail adresi üzerinden ulaşabilirsiniz. " +
+                "\nBunun yanı sıra 05078932333 numaralı hattı arayarak ya da WhatsApp üzerinden iletişime geçerek daha hızlı ulaşabilirsiniz. ", "bilgi", MessageBoxButtons.OK, MessageBoxIcon.Information
+                );
+
+
+        }
+
+        private void BtnHarita_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            Formlar.FrmHarita frm = new Formlar.FrmHarita();
             frm.MdiParent = this;
             frm.Show();
         }

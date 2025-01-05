@@ -41,7 +41,8 @@
             this.labelControl1.Appearance.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
             this.labelControl1.Appearance.Options.UseFont = true;
             this.labelControl1.Appearance.Options.UseForeColor = true;
-            this.labelControl1.Location = new System.Drawing.Point(73, 84);
+            this.labelControl1.Location = new System.Drawing.Point(37, 90);
+            this.labelControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(102, 22);
             this.labelControl1.TabIndex = 0;
@@ -52,25 +53,27 @@
             this.BtnKaydet.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnKaydet.Appearance.Options.UseFont = true;
             this.BtnKaydet.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnKaydet.ImageOptions.Image")));
-            this.BtnKaydet.Location = new System.Drawing.Point(236, 138);
+            this.BtnKaydet.Location = new System.Drawing.Point(226, 151);
+            this.BtnKaydet.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.BtnKaydet.Name = "BtnKaydet";
-            this.BtnKaydet.Size = new System.Drawing.Size(181, 42);
+            this.BtnKaydet.Size = new System.Drawing.Size(139, 38);
             this.BtnKaydet.TabIndex = 1;
             this.BtnKaydet.Text = "Kaydet";
             this.BtnKaydet.Click += new System.EventHandler(this.BtnKaydet_Click);
             // 
             // TxtKategoriAd
             // 
-            this.TxtKategoriAd.Location = new System.Drawing.Point(221, 82);
+            this.TxtKategoriAd.Location = new System.Drawing.Point(165, 88);
+            this.TxtKategoriAd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.TxtKategoriAd.Name = "TxtKategoriAd";
-            this.TxtKategoriAd.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.TxtKategoriAd.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
             this.TxtKategoriAd.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.TxtKategoriAd.Properties.Appearance.ForeColor = System.Drawing.Color.White;
+            this.TxtKategoriAd.Properties.Appearance.ForeColor = System.Drawing.Color.DarkBlue;
             this.TxtKategoriAd.Properties.Appearance.Options.UseBackColor = true;
             this.TxtKategoriAd.Properties.Appearance.Options.UseFont = true;
             this.TxtKategoriAd.Properties.Appearance.Options.UseForeColor = true;
             this.TxtKategoriAd.Properties.BorderStyle = DevExpress.XtraEditors.Controls.BorderStyles.NoBorder;
-            this.TxtKategoriAd.Size = new System.Drawing.Size(220, 26);
+            this.TxtKategoriAd.Size = new System.Drawing.Size(275, 26);
             this.TxtKategoriAd.TabIndex = 2;
             // 
             // FrmKategoriEkle
@@ -78,7 +81,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
-            this.ClientSize = new System.Drawing.Size(527, 257);
+            this.ClientSize = new System.Drawing.Size(479, 231);
             this.Controls.Add(this.TxtKategoriAd);
             this.Controls.Add(this.BtnKaydet);
             this.Controls.Add(this.labelControl1);
