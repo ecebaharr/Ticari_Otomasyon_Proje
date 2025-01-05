@@ -96,6 +96,12 @@
     <Compile Include="Formlar\FrmAjanda.Designer.cs">
       <DependentUpon>FrmAjanda.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formlar\FrmAnaForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmAnaForm.Designer.cs">
+      <DependentUpon>FrmAnaForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formlar\FrmCariHareket.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -274,6 +280,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formlar\FrmAjanda.resx">
       <DependentUpon>FrmAjanda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmAnaForm.resx">
+      <DependentUpon>FrmAnaForm.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formlar\FrmCariHareket.resx">
       <DependentUpon>FrmCariHareket.cs</DependentUpon>

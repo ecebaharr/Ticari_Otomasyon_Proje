@@ -21,7 +21,7 @@ namespace Ticari_Otomasyon_Proje.Formlar
         DbTicariOtomasyonEntities db = new DbTicariOtomasyonEntities();
         private void FrmAjanda_Load(object sender, EventArgs e)
         {
-            
+            this.IsMdiContainer = true;
             gridControl1.DataSource=db.TBLNOTLAR.ToList();
         }
     }

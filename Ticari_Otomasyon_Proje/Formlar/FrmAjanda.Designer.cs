@@ -36,12 +36,12 @@
             // 
             // gridControl1
             // 
-            this.gridControl1.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
-            this.gridControl1.Location = new System.Drawing.Point(1, 0);
+            this.gridControl1.EmbeddedNavigator.Margin = new System.Windows.Forms.Padding(5);
+            this.gridControl1.Location = new System.Drawing.Point(-2, 0);
             this.gridControl1.MainView = this.gridView1;
-            this.gridControl1.Margin = new System.Windows.Forms.Padding(5, 5, 5, 5);
+            this.gridControl1.Margin = new System.Windows.Forms.Padding(5);
             this.gridControl1.Name = "gridControl1";
-            this.gridControl1.Size = new System.Drawing.Size(1616, 561);
+            this.gridControl1.Size = new System.Drawing.Size(1293, 453);
             this.gridControl1.TabIndex = 0;
             this.gridControl1.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -61,6 +61,7 @@
             this.Controls.Add(this.gridControl1);
             this.IsMdiContainer = true;
             this.Name = "FrmAjanda";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "FrmAjanda";
             this.Load += new System.EventHandler(this.FrmAjanda_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();

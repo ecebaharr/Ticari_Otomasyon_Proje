@@ -66,6 +66,8 @@
             this.BtnYardim = new DevExpress.XtraBars.BarButtonItem();
             this.barButtonItem34 = new DevExpress.XtraBars.BarButtonItem();
             this.BtnYeniNot = new DevExpress.XtraBars.BarButtonItem();
+            this.BtnAna = new DevExpress.XtraBars.BarButtonItem();
+            this.btnajandda = new DevExpress.XtraBars.BarButtonItem();
             this.ribbonPage1 = new DevExpress.XtraBars.Ribbon.RibbonPage();
             this.ribbonPageGroup1 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.ribbonPage2 = new DevExpress.XtraBars.Ribbon.RibbonPage();
@@ -92,6 +94,7 @@
             this.ribbonPageGroup17 = new DevExpress.XtraBars.Ribbon.RibbonPageGroup();
             this.xtraTabbedMdiManager1 = new DevExpress.XtraTabbedMdi.XtraTabbedMdiManager(this.components);
             this.popupMenu1 = new DevExpress.XtraBars.PopupMenu(this.components);
+            this.barButtonItem1 = new DevExpress.XtraBars.BarButtonItem();
             ((System.ComponentModel.ISupportInitialize)(this.ribbonControl1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.xtraTabbedMdiManager1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.popupMenu1)).BeginInit();
@@ -137,10 +140,13 @@
             this.barButtonItem32,
             this.BtnYardim,
             this.barButtonItem34,
-            this.BtnYeniNot});
+            this.BtnYeniNot,
+            this.BtnAna,
+            this.btnajandda,
+            this.barButtonItem1});
             this.ribbonControl1.Location = new System.Drawing.Point(0, 0);
             this.ribbonControl1.Margin = new System.Windows.Forms.Padding(8);
-            this.ribbonControl1.MaxItemId = 43;
+            this.ribbonControl1.MaxItemId = 47;
             this.ribbonControl1.Name = "ribbonControl1";
             this.ribbonControl1.OptionsMenuMinWidth = 805;
             this.ribbonControl1.Pages.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPage[] {
@@ -430,6 +436,22 @@
             this.BtnYeniNot.Name = "BtnYeniNot";
             this.BtnYeniNot.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.BtnYeniNot_ItemClick);
             // 
+            // BtnAna
+            // 
+            this.BtnAna.Caption = "Ana Sayfa";
+            this.BtnAna.Id = 44;
+            this.BtnAna.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("BtnAna.ImageOptions.LargeImage")));
+            this.BtnAna.Name = "BtnAna";
+            this.BtnAna.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.BtnAna_ItemClick);
+            // 
+            // btnajandda
+            // 
+            this.btnajandda.Caption = "Ajanda";
+            this.btnajandda.Id = 45;
+            this.btnajandda.Name = "btnajandda";
+            this.btnajandda.Visibility = DevExpress.XtraBars.BarItemVisibility.Never;
+            this.btnajandda.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.btnajandda_ItemClick);
+            // 
             // ribbonPage1
             // 
             this.ribbonPage1.Groups.AddRange(new DevExpress.XtraBars.Ribbon.RibbonPageGroup[] {
@@ -439,6 +461,7 @@
             // 
             // ribbonPageGroup1
             // 
+            this.ribbonPageGroup1.ItemLinks.Add(this.BtnAna);
             this.ribbonPageGroup1.Name = "ribbonPageGroup1";
             // 
             // ribbonPage2
@@ -565,6 +588,8 @@
             this.ribbonPageGroup14.ItemLinks.Add(this.BtnYeniNot);
             this.ribbonPageGroup14.ItemLinks.Add(this.BtnExcel);
             this.ribbonPageGroup14.ItemLinks.Add(this.BtnWord);
+            this.ribbonPageGroup14.ItemLinks.Add(this.btnajandda);
+            this.ribbonPageGroup14.ItemLinks.Add(this.barButtonItem1);
             this.ribbonPageGroup14.Name = "ribbonPageGroup14";
             // 
             // ribbonPageGroup15
@@ -601,6 +626,14 @@
             // 
             this.popupMenu1.Name = "popupMenu1";
             this.popupMenu1.Ribbon = this.ribbonControl1;
+            // 
+            // barButtonItem1
+            // 
+            this.barButtonItem1.Caption = "barButtonItem1";
+            this.barButtonItem1.Id = 46;
+            this.barButtonItem1.Name = "barButtonItem1";
+            this.barButtonItem1.Visibility = DevExpress.XtraBars.BarItemVisibility.Never;
+            this.barButtonItem1.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.barButtonItem1_ItemClick);
             // 
             // Form1
             // 
@@ -685,6 +718,9 @@
         private DevExpress.XtraTabbedMdi.XtraTabbedMdiManager xtraTabbedMdiManager1;
         private DevExpress.XtraBars.BarButtonItem BtnYeniNot;
         private DevExpress.XtraBars.PopupMenu popupMenu1;
+        private DevExpress.XtraBars.BarButtonItem BtnAna;
+        private DevExpress.XtraBars.BarButtonItem btnajandda;
+        private DevExpress.XtraBars.BarButtonItem barButtonItem1;
     }
 }
 

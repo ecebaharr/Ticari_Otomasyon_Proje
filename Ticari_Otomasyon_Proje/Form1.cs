@@ -1,4 +1,5 @@
-﻿using DevExpress.XtraEditors;
+﻿using DevExpress.XtraBars;
+using DevExpress.XtraEditors;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -17,6 +18,7 @@ namespace Ticari_Otomasyon_Proje
         public Form1()
         {
             InitializeComponent();
+            this.IsMdiContainer = true;
         }
 
         private void BtnUrunListesi_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -137,9 +139,10 @@ namespace Ticari_Otomasyon_Proje
 
         private void BtnAjanda_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Formlar.FrmAjanda frm = new Formlar.FrmAjanda();
-            frm.MdiParent = this;
-            frm.Show();
+            Formlar.FrmAjanda a = new Formlar.FrmAjanda();
+
+            a.Show();
+
         }
 
         private void BtnYeniNot_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -150,8 +153,8 @@ namespace Ticari_Otomasyon_Proje
         }
 
         private void Form1_Load(object sender, EventArgs e)
-        {
-            this.IsMdiContainer = true;
+        {   
+           
         }
 
         private void BtnExcel_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -179,7 +182,9 @@ namespace Ticari_Otomasyon_Proje
         {
             // Ribbon içerisinde gauge butonunun bulunduğu yerde, ilgili butonun visibility değerini false yapabilirsiniz.
             ribbonPageGroup1.ItemLinks.Remove(BtnGauge);  // gaugeButtonItem butonunun adıdır.
-
+            
+            ribbonPageGroup1.ItemLinks.Remove(btnajandda);
+            ribbonPageGroup1.ItemLinks.Remove(barButtonItem1);
         }
 
         private void BtnYoutube_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
@@ -204,6 +209,28 @@ namespace Ticari_Otomasyon_Proje
             Formlar.FrmHarita frm = new Formlar.FrmHarita();
             frm.MdiParent = this;
             frm.Show();
+        }
+
+        Formlar.FrmAnaForm frm1;
+        private void BtnAna_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            if(frm1 == null || frm1.IsDisposed)
+            {
+               frm1  =new Formlar.FrmAnaForm();
+               frm1.MdiParent = this;
+               frm1.Show();
+            }
+           
+        }
+
+        private void btnajandda_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            
+        }
+
+        private void barButtonItem1_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        {
+            
         }
     }
 }
