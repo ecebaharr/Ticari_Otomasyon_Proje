@@ -28,8 +28,12 @@ namespace Ticari_Otomasyon_Proje
             frm.Show();
         }
 
-        private void barButtonItem9_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
+        private void btnbarkod_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
+            FrmBarkod frm = new FrmBarkod();
+          
+            frm.Show();
+
 
         }
 
@@ -139,8 +143,8 @@ namespace Ticari_Otomasyon_Proje
 
         private void BtnAjanda_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
-            Formlar.FrmAjanda a = new Formlar.FrmAjanda();
-
+           FrmAjanda a = new FrmAjanda();
+            
             a.Show();
 
         }
@@ -231,6 +235,13 @@ namespace Ticari_Otomasyon_Proje
         private void barButtonItem1_ItemClick(object sender, DevExpress.XtraBars.ItemClickEventArgs e)
         {
             
+        }
+
+        private void BtnQR_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            Formlar.FrmQr frmQr = new Formlar.FrmQr();
+           
+            frmQr.Show();
         }
     }
 }
