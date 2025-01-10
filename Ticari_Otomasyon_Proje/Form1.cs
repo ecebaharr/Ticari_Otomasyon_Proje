@@ -243,5 +243,12 @@ namespace Ticari_Otomasyon_Proje
            
             frmQr.Show();
         }
+
+        private void Btnurunraporları_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            Formlar.FrmUrunRapor frmQr = new Formlar.FrmUrunRapor();
+
+            frmQr.Show();
+        }
     }
 }

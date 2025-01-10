@@ -269,12 +269,6 @@
     <Compile Include="Entity\TBLDEPARTMAN.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
-    <Compile Include="Entity\TBLFIRMA.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Entity\TBLFIRMAHAREKET.cs">
-      <DependentUpon>Model1.tt</DependentUpon>
-    </Compile>
     <Compile Include="Entity\TBLGIDERLER.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>

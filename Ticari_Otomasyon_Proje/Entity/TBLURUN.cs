@@ -18,7 +18,6 @@ namespace Ticari_Otomasyon_Proje.Entity
         public TBLURUN()
         {
             this.TBLCARIHAREKET = new HashSet<TBLCARIHAREKET>();
-            this.TBLFIRMAHAREKET = new HashSet<TBLFIRMAHAREKET>();
         }
     
         public int URUNID { get; set; }
@@ -32,7 +31,5 @@ namespace Ticari_Otomasyon_Proje.Entity
         [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
         public virtual ICollection<TBLCARIHAREKET> TBLCARIHAREKET { get; set; }
         public virtual TBLKATEGORI TBLKATEGORI { get; set; }
-        [System.Diagnostics.CodeAnalysis.SuppressMessage("Microsoft.Usage", "CA2227:CollectionPropertiesShouldBeReadOnly")]
-        public virtual ICollection<TBLFIRMAHAREKET> TBLFIRMAHAREKET { get; set; }
     }
 }

@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Ticari_Otomasyon_Proje.Entity;
 
 namespace Ticari_Otomasyon_Proje.Formlar
 {
@@ -16,10 +17,41 @@ namespace Ticari_Otomasyon_Proje.Formlar
         {
             InitializeComponent();
         }
+        DbTicariOtomasyonEntities db = new DbTicariOtomasyonEntities();
 
+        void urunler()
+        {
+            gridControl1.DataSource = (from x in db.TBLURUN
+                                       select new
+                                       {
+                                           x.URUNID,
+                                           x.URUNAD,
+                                           x.STOK,
+                                           x.ALISFIYAT,
+                                           x.SATISFIYAT,
+                                           x.TBLKATEGORI.KATEGORİAD,
+                                       }).ToList();
+        }
         private void FrmUrunRapor_Load(object sender, EventArgs e)
         {
+            urunler();
+        }
 
+        private void simpleButton3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void BtnPDF_Click(object sender, EventArgs e)
+        {
+            string path = "Dosya1.Pdf";
+            gridControl1.ExportToPdf(path);
+        }
+
+        private void BtnExcel_Click(object sender, EventArgs e)
+        {
+            string path = "Dosya1.Xls";
+            gridControl1.ExportToXls(path);
         }
     }
 }

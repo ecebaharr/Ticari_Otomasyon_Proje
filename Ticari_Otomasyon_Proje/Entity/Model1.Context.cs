@@ -29,7 +29,6 @@ namespace Ticari_Otomasyon_Proje.Entity
         public virtual DbSet<TBLCARI> TBLCARI { get; set; }
         public virtual DbSet<TBLCARIHAREKET> TBLCARIHAREKET { get; set; }
         public virtual DbSet<TBLDEPARTMAN> TBLDEPARTMAN { get; set; }
-        public virtual DbSet<TBLFIRMA> TBLFIRMA { get; set; }
         public virtual DbSet<TBLGIDERLER> TBLGIDERLER { get; set; }
         public virtual DbSet<TBLILCELER> TBLILCELER { get; set; }
         public virtual DbSet<TBLILLER> TBLILLER { get; set; }
@@ -37,7 +36,6 @@ namespace Ticari_Otomasyon_Proje.Entity
         public virtual DbSet<TBLNOTLAR> TBLNOTLAR { get; set; }
         public virtual DbSet<TBLPERSONEL> TBLPERSONEL { get; set; }
         public virtual DbSet<TBLURUN> TBLURUN { get; set; }
-        public virtual DbSet<TBLFIRMAHAREKET> TBLFIRMAHAREKET { get; set; }
         public virtual DbSet<TBLKASA> TBLKASA { get; set; }
     }
 }
