@@ -64,7 +64,7 @@
             this.Controls.Add(this.memoEdit1);
             this.Name = "FrmMetniSeslendir";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmMetniSeslendir";
+            this.Text = "Metni Seslendir";
             this.Load += new System.EventHandler(this.FrmMetniSeslendir_Load);
             ((System.ComponentModel.ISupportInitialize)(this.memoEdit1.Properties)).EndInit();
             this.ResumeLayout(false);

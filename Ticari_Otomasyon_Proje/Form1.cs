@@ -265,5 +265,10 @@ namespace Ticari_Otomasyon_Proje
 
             frm.Show();
         }
+
+        private void BtnOku_ItemClick(object sender, ItemClickEventArgs e)
+        {
+         
+        }
     }
 }

@@ -491,8 +491,9 @@
             // 
             this.BtnOku.Caption = "Metni Oku ";
             this.BtnOku.Id = 49;
-            this.BtnOku.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("barButtonItem3.ImageOptions.LargeImage")));
+            this.BtnOku.ImageOptions.LargeImage = ((System.Drawing.Image)(resources.GetObject("BtnOku.ImageOptions.LargeImage")));
             this.BtnOku.Name = "BtnOku";
+            this.BtnOku.ItemClick += new DevExpress.XtraBars.ItemClickEventHandler(this.BtnOku_ItemClick);
             // 
             // ribbonPage1
             // 
@@ -624,7 +625,6 @@
             // ribbonPageGroup7
             // 
             this.ribbonPageGroup7.ItemLinks.Add(this.BtnSeslendir);
-            this.ribbonPageGroup7.ItemLinks.Add(this.BtnOku);
             this.ribbonPageGroup7.Name = "ribbonPageGroup7";
             // 
             // ribbonPageGroup14
