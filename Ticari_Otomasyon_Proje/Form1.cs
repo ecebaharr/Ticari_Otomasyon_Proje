@@ -250,5 +250,20 @@ namespace Ticari_Otomasyon_Proje
 
             frmQr.Show();
         }
+
+        private void BtnRapor_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            Formlar.FrmRaporlar frm = new Formlar.FrmRaporlar();
+            
+            frm.Show();
+            
+        }
+
+        private void BtnSeslendir_ItemClick(object sender, ItemClickEventArgs e)
+        {
+            Formlar.FrmMetniSeslendir frm = new Formlar.FrmMetniSeslendir();
+
+            frm.Show();
+        }
     }
 }
