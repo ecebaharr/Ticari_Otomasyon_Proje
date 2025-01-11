@@ -37,5 +37,6 @@ namespace Ticari_Otomasyon_Proje.Entity
         public virtual DbSet<TBLPERSONEL> TBLPERSONEL { get; set; }
         public virtual DbSet<TBLURUN> TBLURUN { get; set; }
         public virtual DbSet<TBLKASA> TBLKASA { get; set; }
+        public virtual DbSet<TBLADMIN> TBLADMIN { get; set; }
     }
 }

@@ -115,6 +115,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Entity\TBLADMIN.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -246,6 +249,12 @@
     </Compile>
     <Compile Include="Formlar\FrmRaporlar.Designer.cs">
       <DependentUpon>FrmRaporlar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formlar\FrmSifremiUnuttum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formlar\FrmSifremiUnuttum.Designer.cs">
+      <DependentUpon>FrmSifremiUnuttum.cs</DependentUpon>
     </Compile>
     <Compile Include="Formlar\FrmUrunEkle.cs">
       <SubType>Form</SubType>
@@ -407,6 +416,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formlar\FrmRaporlar.resx">
       <DependentUpon>FrmRaporlar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formlar\FrmSifremiUnuttum.resx">
+      <DependentUpon>FrmSifremiUnuttum.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formlar\FrmUrunEkle.resx">
       <DependentUpon>FrmUrunEkle.cs</DependentUpon>

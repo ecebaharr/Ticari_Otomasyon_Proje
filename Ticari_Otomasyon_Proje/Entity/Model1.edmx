@@ -15,6 +15,14 @@
           <Property Name="version" Type="int" />
           <Property Name="definition" Type="varbinary(max)" />
         </EntityType>
+        <EntityType Name="TBLADMIN">
+          <Key>
+            <PropertyRef Name="ADMINID" />
+          </Key>
+          <Property Name="ADMINID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="KULLANICIAD" Type="varchar" MaxLength="15" />
+          <Property Name="SIFRE" Type="varchar" MaxLength="15" />
+        </EntityType>
         <EntityType Name="TBLCARI">
           <Key>
             <PropertyRef Name="CARIID" />
@@ -186,6 +194,7 @@
         </Association>
         <EntityContainer Name="DbTicariOtomasyonModelStoreContainer">
           <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TBLADMIN" EntityType="Self.TBLADMIN" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TBLCARI" EntityType="Self.TBLCARI" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TBLCARIHAREKET" EntityType="Self.TBLCARIHAREKET" Schema="dbo" store:Type="Tables" />
           <EntitySet Name="TBLDEPARTMAN" EntityType="Self.TBLDEPARTMAN" Schema="dbo" store:Type="Tables" />
@@ -444,7 +453,16 @@
             <End Role="TBLKATEGORI" EntitySet="TBLKATEGORI" />
             <End Role="TBLURUN" EntitySet="TBLURUN" />
           </AssociationSet>
+          <EntitySet Name="TBLADMIN" EntityType="DbTicariOtomasyonModel.TBLADMIN" />
           </EntityContainer>
+        <EntityType Name="TBLADMIN">
+          <Key>
+            <PropertyRef Name="ADMINID" />
+          </Key>
+          <Property Name="ADMINID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="KULLANICIAD" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+          <Property Name="SIFRE" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+        </EntityType>
       </Schema>
     </edmx:ConceptualModels>
     <!-- C-S mapping content -->
@@ -579,6 +597,15 @@
                 <ScalarProperty Name="TUR" ColumnName="TUR" />
                 <ScalarProperty Name="ID" ColumnName="ID" />
                 <ScalarProperty Name="TUTAR" ColumnName="TUTAR" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TBLADMIN">
+            <EntityTypeMapping TypeName="DbTicariOtomasyonModel.TBLADMIN">
+              <MappingFragment StoreEntitySet="TBLADMIN">
+                <ScalarProperty Name="SIFRE" ColumnName="SIFRE" />
+                <ScalarProperty Name="KULLANICIAD" ColumnName="KULLANICIAD" />
+                <ScalarProperty Name="ADMINID" ColumnName="ADMINID" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
