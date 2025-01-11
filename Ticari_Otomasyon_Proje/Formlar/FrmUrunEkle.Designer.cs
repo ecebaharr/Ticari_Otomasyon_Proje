@@ -61,7 +61,7 @@
             this.TxtAd.EditValue = "Ürün Adı";
             this.TxtAd.Location = new System.Drawing.Point(24, 71);
             this.TxtAd.Name = "TxtAd";
-            this.TxtAd.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.TxtAd.Properties.Appearance.BackColor = System.Drawing.Color.Teal;
             this.TxtAd.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TxtAd.Properties.Appearance.ForeColor = System.Drawing.Color.White;
             this.TxtAd.Properties.Appearance.Options.UseBackColor = true;
@@ -75,7 +75,7 @@
             this.TxtSatisFiyat.EditValue = "Satış Fiyatı ";
             this.TxtSatisFiyat.Location = new System.Drawing.Point(24, 194);
             this.TxtSatisFiyat.Name = "TxtSatisFiyat";
-            this.TxtSatisFiyat.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.TxtSatisFiyat.Properties.Appearance.BackColor = System.Drawing.Color.Teal;
             this.TxtSatisFiyat.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TxtSatisFiyat.Properties.Appearance.ForeColor = System.Drawing.Color.White;
             this.TxtSatisFiyat.Properties.Appearance.Options.UseBackColor = true;
@@ -89,7 +89,7 @@
             this.TxtStok.EditValue = "Stok Sayısı";
             this.TxtStok.Location = new System.Drawing.Point(24, 251);
             this.TxtStok.Name = "TxtStok";
-            this.TxtStok.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.TxtStok.Properties.Appearance.BackColor = System.Drawing.Color.Teal;
             this.TxtStok.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TxtStok.Properties.Appearance.ForeColor = System.Drawing.Color.White;
             this.TxtStok.Properties.Appearance.Options.UseBackColor = true;
@@ -103,7 +103,7 @@
             this.TxtAlisFiyat.EditValue = "Alış Fiyatı";
             this.TxtAlisFiyat.Location = new System.Drawing.Point(24, 136);
             this.TxtAlisFiyat.Name = "TxtAlisFiyat";
-            this.TxtAlisFiyat.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.TxtAlisFiyat.Properties.Appearance.BackColor = System.Drawing.Color.Teal;
             this.TxtAlisFiyat.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TxtAlisFiyat.Properties.Appearance.ForeColor = System.Drawing.Color.White;
             this.TxtAlisFiyat.Properties.Appearance.Options.UseBackColor = true;
@@ -114,9 +114,10 @@
             // 
             // lookUpEdit1
             // 
+            this.lookUpEdit1.EditValue = "";
             this.lookUpEdit1.Location = new System.Drawing.Point(24, 307);
             this.lookUpEdit1.Name = "lookUpEdit1";
-            this.lookUpEdit1.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.lookUpEdit1.Properties.Appearance.BackColor = System.Drawing.Color.Teal;
             this.lookUpEdit1.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lookUpEdit1.Properties.Appearance.ForeColor = System.Drawing.Color.White;
             this.lookUpEdit1.Properties.Appearance.Options.UseBackColor = true;
@@ -129,6 +130,10 @@
             // 
             // BtnKaydet
             // 
+            this.BtnKaydet.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.BtnKaydet.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.BtnKaydet.Appearance.Options.UseBackColor = true;
+            this.BtnKaydet.Appearance.Options.UseFont = true;
             this.BtnKaydet.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnKaydet.ImageOptions.Image")));
             this.BtnKaydet.Location = new System.Drawing.Point(24, 368);
             this.BtnKaydet.Name = "BtnKaydet";
@@ -139,7 +144,13 @@
             // 
             // BtnVazgec
             // 
-            this.BtnVazgec.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton2.ImageOptions.Image")));
+            this.BtnVazgec.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.BtnVazgec.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.BtnVazgec.Appearance.ForeColor = System.Drawing.Color.Red;
+            this.BtnVazgec.Appearance.Options.UseBackColor = true;
+            this.BtnVazgec.Appearance.Options.UseFont = true;
+            this.BtnVazgec.Appearance.Options.UseForeColor = true;
+            this.BtnVazgec.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnVazgec.ImageOptions.Image")));
             this.BtnVazgec.Location = new System.Drawing.Point(237, 368);
             this.BtnVazgec.Name = "BtnVazgec";
             this.BtnVazgec.Size = new System.Drawing.Size(171, 41);
@@ -151,7 +162,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.BackColor = System.Drawing.Color.DarkCyan;
             this.ClientSize = new System.Drawing.Size(435, 460);
             this.Controls.Add(this.BtnVazgec);
             this.Controls.Add(this.BtnKaydet);

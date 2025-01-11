@@ -40,7 +40,7 @@
             // 
             // Bcozumle
             // 
-            this.Bcozumle.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("QRcozumle.ImageOptions.Image")));
+            this.Bcozumle.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Bcozumle.ImageOptions.Image")));
             this.Bcozumle.Location = new System.Drawing.Point(192, 277);
             this.Bcozumle.Name = "Bcozumle";
             this.Bcozumle.Size = new System.Drawing.Size(179, 39);
@@ -50,7 +50,7 @@
             // 
             // Bolustur
             // 
-            this.Bolustur.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnQRolustur.ImageOptions.Image")));
+            this.Bolustur.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("Bolustur.ImageOptions.Image")));
             this.Bolustur.Location = new System.Drawing.Point(12, 277);
             this.Bolustur.Name = "Bolustur";
             this.Bolustur.Size = new System.Drawing.Size(179, 39);
@@ -98,7 +98,7 @@
             this.Controls.Add(this.pictureEdit1);
             this.Name = "FrmBarkod";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmBarkod";
+            this.Text = "Barkod";
             ((System.ComponentModel.ISupportInitialize)(this.textEdit1.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureEdit1.Properties)).EndInit();
             this.ResumeLayout(false);

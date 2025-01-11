@@ -77,7 +77,7 @@
             this.Controls.Add(this.gridControl1);
             this.Controls.Add(this.chartControl1);
             this.Name = "FrmCariistatistik";
-            this.Text = "FrmCariistatistik";
+            this.Text = "Cari İstatistikleri";
             this.Load += new System.EventHandler(this.FrmCariistatistik_Load);
             ((System.ComponentModel.ISupportInitialize)(xyDiagram1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(series1)).EndInit();

@@ -39,8 +39,8 @@
             DevExpress.XtraReports.UserDesigner.XRDesignPanelListener xrDesignPanelListener6 = new DevExpress.XtraReports.UserDesigner.XRDesignPanelListener();
             DevExpress.XtraReports.UserDesigner.XRDesignPanelListener xrDesignPanelListener7 = new DevExpress.XtraReports.UserDesigner.XRDesignPanelListener();
             DevExpress.XtraReports.UserDesigner.XRDesignPanelListener xrDesignPanelListener8 = new DevExpress.XtraReports.UserDesigner.XRDesignPanelListener();
-            this.xrDesignBarManager1 = new DevExpress.XtraReports.UserDesigner.XRDesignBarManager(this.components);
             this.bar2 = new DevExpress.XtraBars.Bar();
+            this.xrDesignBarManager1 = new DevExpress.XtraReports.UserDesigner.XRDesignBarManager(this.components);
             this.designBar1 = new DevExpress.XtraReports.UserDesigner.DesignBar();
             this.msiFile = new DevExpress.XtraBars.BarSubItem();
             this.commandBarItem1 = new DevExpress.XtraReports.UserDesigner.CommandBarItem();
@@ -167,6 +167,15 @@
             ((System.ComponentModel.ISupportInitialize)(this.reportDesigner1)).BeginInit();
             this.SuspendLayout();
             // 
+            // bar2
+            // 
+            this.bar2.BarName = "Toolbox";
+            this.bar2.DockCol = 0;
+            this.bar2.DockRow = 0;
+            this.bar2.DockStyle = DevExpress.XtraBars.BarDockStyle.Left;
+            this.bar2.OptionsBar.AllowQuickCustomization = false;
+            this.bar2.Text = "Standard Controls";
+            // 
             // xrDesignBarManager1
             // 
             barInfo1.Bar = this.bar2;
@@ -275,15 +284,6 @@
             this.xrDesignBarManager1.TransparentEditorsMode = DevExpress.Utils.DefaultBoolean.True;
             this.xrDesignBarManager1.Updates.AddRange(new string[] {
             "Toolbox"});
-            // 
-            // bar2
-            // 
-            this.bar2.BarName = "Toolbox";
-            this.bar2.DockCol = 0;
-            this.bar2.DockRow = 0;
-            this.bar2.DockStyle = DevExpress.XtraBars.BarDockStyle.Left;
-            this.bar2.OptionsBar.AllowQuickCustomization = false;
-            this.bar2.Text = "Standard Controls";
             // 
             // designBar1
             // 
@@ -1405,7 +1405,7 @@
             this.Controls.Add(this.barDockControlTop);
             this.Name = "FrmRaporlar";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
-            this.Text = "FrmRaporlar";
+            this.Text = "Raporlar";
             this.Load += new System.EventHandler(this.FrmRaporlar_Load);
             ((System.ComponentModel.ISupportInitialize)(this.xrDesignBarManager1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.recentlyUsedItemsComboBox1)).EndInit();

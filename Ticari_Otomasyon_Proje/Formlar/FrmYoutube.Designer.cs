@@ -50,7 +50,7 @@
             this.ClientSize = new System.Drawing.Size(1310, 583);
             this.Controls.Add(this.webView21);
             this.Name = "FrmYoutube";
-            this.Text = "FrmYoutube";
+            this.Text = "Youtube";
             this.Load += new System.EventHandler(this.FrmYoutube_Load);
             ((System.ComponentModel.ISupportInitialize)(this.webView21)).EndInit();
             this.ResumeLayout(false);

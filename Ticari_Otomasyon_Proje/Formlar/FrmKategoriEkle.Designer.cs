@@ -37,24 +37,28 @@
             // 
             // labelControl1
             // 
-            this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.labelControl1.Appearance.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.labelControl1.Appearance.ForeColor = System.Drawing.Color.MediumSlateBlue;
             this.labelControl1.Appearance.Options.UseFont = true;
             this.labelControl1.Appearance.Options.UseForeColor = true;
             this.labelControl1.Location = new System.Drawing.Point(37, 90);
-            this.labelControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.labelControl1.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl1.Name = "labelControl1";
-            this.labelControl1.Size = new System.Drawing.Size(102, 22);
+            this.labelControl1.Size = new System.Drawing.Size(134, 24);
             this.labelControl1.TabIndex = 0;
             this.labelControl1.Text = "Kategori Adı:";
             // 
             // BtnKaydet
             // 
+            this.BtnKaydet.Appearance.BackColor = System.Drawing.Color.White;
+            this.BtnKaydet.Appearance.BorderColor = System.Drawing.Color.Black;
             this.BtnKaydet.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.BtnKaydet.Appearance.Options.UseBackColor = true;
+            this.BtnKaydet.Appearance.Options.UseBorderColor = true;
             this.BtnKaydet.Appearance.Options.UseFont = true;
             this.BtnKaydet.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnKaydet.ImageOptions.Image")));
             this.BtnKaydet.Location = new System.Drawing.Point(226, 151);
-            this.BtnKaydet.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnKaydet.Margin = new System.Windows.Forms.Padding(4);
             this.BtnKaydet.Name = "BtnKaydet";
             this.BtnKaydet.Size = new System.Drawing.Size(139, 38);
             this.BtnKaydet.TabIndex = 1;
@@ -63,10 +67,10 @@
             // 
             // TxtKategoriAd
             // 
-            this.TxtKategoriAd.Location = new System.Drawing.Point(165, 88);
-            this.TxtKategoriAd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtKategoriAd.Location = new System.Drawing.Point(179, 88);
+            this.TxtKategoriAd.Margin = new System.Windows.Forms.Padding(4);
             this.TxtKategoriAd.Name = "TxtKategoriAd";
-            this.TxtKategoriAd.Properties.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.TxtKategoriAd.Properties.Appearance.BackColor = System.Drawing.Color.White;
             this.TxtKategoriAd.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TxtKategoriAd.Properties.Appearance.ForeColor = System.Drawing.Color.DarkBlue;
             this.TxtKategoriAd.Properties.Appearance.Options.UseBackColor = true;
@@ -80,7 +84,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(34)))), ((int)(((byte)(36)))), ((int)(((byte)(49)))));
+            this.BackColor = System.Drawing.Color.Lavender;
             this.ClientSize = new System.Drawing.Size(479, 231);
             this.Controls.Add(this.TxtKategoriAd);
             this.Controls.Add(this.BtnKaydet);

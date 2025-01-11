@@ -138,7 +138,7 @@
             this.ControlBox = false;
             this.Controls.Add(this.gridControl1);
             this.Name = "FrmPersonel";
-            this.Text = "FrmPersonel";
+            this.Text = "Personeller";
             this.Load += new System.EventHandler(this.FrmPersonel_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).EndInit();

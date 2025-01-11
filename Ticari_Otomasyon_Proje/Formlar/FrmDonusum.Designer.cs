@@ -51,7 +51,7 @@
             // TxtKur
             // 
             this.TxtKur.Location = new System.Drawing.Point(169, 47);
-            this.TxtKur.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtKur.Margin = new System.Windows.Forms.Padding(4);
             this.TxtKur.Name = "TxtKur";
             this.TxtKur.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TxtKur.Properties.Appearance.Options.UseFont = true;
@@ -61,7 +61,7 @@
             // TxtMiktar
             // 
             this.TxtMiktar.Location = new System.Drawing.Point(169, 106);
-            this.TxtMiktar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtMiktar.Margin = new System.Windows.Forms.Padding(4);
             this.TxtMiktar.Name = "TxtMiktar";
             this.TxtMiktar.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TxtMiktar.Properties.Appearance.Options.UseFont = true;
@@ -73,7 +73,7 @@
             this.labelControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl1.Appearance.Options.UseFont = true;
             this.labelControl1.Location = new System.Drawing.Point(83, 51);
-            this.labelControl1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.labelControl1.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(31, 21);
             this.labelControl1.TabIndex = 4;
@@ -84,7 +84,7 @@
             this.labelControl2.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl2.Appearance.Options.UseFont = true;
             this.labelControl2.Location = new System.Drawing.Point(83, 107);
-            this.labelControl2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.labelControl2.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl2.Name = "labelControl2";
             this.labelControl2.Size = new System.Drawing.Size(52, 21);
             this.labelControl2.TabIndex = 5;
@@ -95,7 +95,7 @@
             this.labelControl3.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.labelControl3.Appearance.Options.UseFont = true;
             this.labelControl3.Location = new System.Drawing.Point(83, 157);
-            this.labelControl3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.labelControl3.Margin = new System.Windows.Forms.Padding(4);
             this.labelControl3.Name = "labelControl3";
             this.labelControl3.Size = new System.Drawing.Size(40, 21);
             this.labelControl3.TabIndex = 7;
@@ -104,7 +104,7 @@
             // TxtTutar
             // 
             this.TxtTutar.Location = new System.Drawing.Point(169, 156);
-            this.TxtTutar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.TxtTutar.Margin = new System.Windows.Forms.Padding(4);
             this.TxtTutar.Name = "TxtTutar";
             this.TxtTutar.Properties.Appearance.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.TxtTutar.Properties.Appearance.Options.UseFont = true;
@@ -115,7 +115,7 @@
             // 
             this.pictureEdit1.EditValue = ((object)(resources.GetObject("pictureEdit1.EditValue")));
             this.pictureEdit1.Location = new System.Drawing.Point(18, 41);
-            this.pictureEdit1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureEdit1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureEdit1.Name = "pictureEdit1";
             this.pictureEdit1.Properties.Appearance.BackColor = System.Drawing.SystemColors.Control;
             this.pictureEdit1.Properties.Appearance.Options.UseBackColor = true;
@@ -129,7 +129,7 @@
             // 
             this.pictureEdit2.EditValue = ((object)(resources.GetObject("pictureEdit2.EditValue")));
             this.pictureEdit2.Location = new System.Drawing.Point(18, 94);
-            this.pictureEdit2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureEdit2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureEdit2.Name = "pictureEdit2";
             this.pictureEdit2.Properties.Appearance.BackColor = System.Drawing.SystemColors.Control;
             this.pictureEdit2.Properties.Appearance.Options.UseBackColor = true;
@@ -143,7 +143,7 @@
             // 
             this.pictureEdit3.EditValue = ((object)(resources.GetObject("pictureEdit3.EditValue")));
             this.pictureEdit3.Location = new System.Drawing.Point(18, 141);
-            this.pictureEdit3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureEdit3.Margin = new System.Windows.Forms.Padding(4);
             this.pictureEdit3.Name = "pictureEdit3";
             this.pictureEdit3.Properties.Appearance.BackColor = System.Drawing.SystemColors.Control;
             this.pictureEdit3.Properties.Appearance.Options.UseBackColor = true;
@@ -159,7 +159,7 @@
             this.BtnHesapla.Appearance.Options.UseFont = true;
             this.BtnHesapla.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnHesapla.ImageOptions.Image")));
             this.BtnHesapla.Location = new System.Drawing.Point(170, 194);
-            this.BtnHesapla.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnHesapla.Margin = new System.Windows.Forms.Padding(4);
             this.BtnHesapla.Name = "BtnHesapla";
             this.BtnHesapla.Size = new System.Drawing.Size(155, 51);
             this.BtnHesapla.TabIndex = 28;
@@ -172,7 +172,7 @@
             this.BtnSil.Appearance.Options.UseFont = true;
             this.BtnSil.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnSil.ImageOptions.Image")));
             this.BtnSil.Location = new System.Drawing.Point(333, 194);
-            this.BtnSil.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnSil.Margin = new System.Windows.Forms.Padding(4);
             this.BtnSil.Name = "BtnSil";
             this.BtnSil.Size = new System.Drawing.Size(125, 51);
             this.BtnSil.TabIndex = 29;
@@ -197,7 +197,7 @@
             this.Controls.Add(this.TxtKur);
             this.Name = "FrmDonusum";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Döviz Dönüşüm Formu";
+            this.Text = "Döviz Dönüştürücü";
             this.Load += new System.EventHandler(this.FrmDonusum_Load);
             ((System.ComponentModel.ISupportInitialize)(this.TxtKur.Properties)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.TxtMiktar.Properties)).EndInit();

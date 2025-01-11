@@ -57,7 +57,7 @@
             // 
             this.BtnPDF.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnPDF.Appearance.Options.UseFont = true;
-            this.BtnPDF.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
+            this.BtnPDF.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnPDF.ImageOptions.Image")));
             this.BtnPDF.Location = new System.Drawing.Point(12, 29);
             this.BtnPDF.Name = "BtnPDF";
             this.BtnPDF.Size = new System.Drawing.Size(243, 46);
@@ -69,7 +69,7 @@
             // 
             this.BtnExcel.Appearance.Font = new System.Drawing.Font("Tahoma", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.BtnExcel.Appearance.Options.UseFont = true;
-            this.BtnExcel.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton2.ImageOptions.Image")));
+            this.BtnExcel.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("BtnExcel.ImageOptions.Image")));
             this.BtnExcel.Location = new System.Drawing.Point(277, 29);
             this.BtnExcel.Name = "BtnExcel";
             this.BtnExcel.Size = new System.Drawing.Size(243, 46);
@@ -100,7 +100,7 @@
             this.Controls.Add(this.gridControl1);
             this.Name = "FrmUrunRapor";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmUrunRapor";
+            this.Text = "Ürün Raporları";
             this.Load += new System.EventHandler(this.FrmUrunRapor_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();

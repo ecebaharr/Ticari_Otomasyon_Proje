@@ -436,7 +436,7 @@
             this.Controls.Add(this.gridControl1);
             this.Name = "FrmCariListesi";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "FrmCariListesi";
+            this.Text = "Cari Listesi";
             this.Load += new System.EventHandler(this.FrmCariListesi_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();
