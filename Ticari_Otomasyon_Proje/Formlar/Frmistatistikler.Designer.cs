@@ -109,7 +109,7 @@
             this.LblUrunSayisi.Appearance.ForeColor = System.Drawing.Color.White;
             this.LblUrunSayisi.Appearance.Options.UseFont = true;
             this.LblUrunSayisi.Appearance.Options.UseForeColor = true;
-            this.LblUrunSayisi.Location = new System.Drawing.Point(104, 82);
+            this.LblUrunSayisi.Location = new System.Drawing.Point(114, 82);
             this.LblUrunSayisi.Name = "LblUrunSayisi";
             this.LblUrunSayisi.Size = new System.Drawing.Size(16, 36);
             this.LblUrunSayisi.TabIndex = 1;
@@ -121,7 +121,7 @@
             this.labelControl1.Appearance.ForeColor = System.Drawing.Color.White;
             this.labelControl1.Appearance.Options.UseFont = true;
             this.labelControl1.Appearance.Options.UseForeColor = true;
-            this.labelControl1.Location = new System.Drawing.Point(95, 37);
+            this.labelControl1.Location = new System.Drawing.Point(105, 37);
             this.labelControl1.Name = "labelControl1";
             this.labelControl1.Size = new System.Drawing.Size(35, 21);
             this.labelControl1.TabIndex = 0;
@@ -195,7 +195,7 @@
             this.labelControl6.Appearance.ForeColor = System.Drawing.Color.White;
             this.labelControl6.Appearance.Options.UseFont = true;
             this.labelControl6.Appearance.Options.UseForeColor = true;
-            this.labelControl6.Location = new System.Drawing.Point(85, 37);
+            this.labelControl6.Location = new System.Drawing.Point(103, 37);
             this.labelControl6.Name = "labelControl6";
             this.labelControl6.Size = new System.Drawing.Size(55, 21);
             this.labelControl6.TabIndex = 0;
@@ -221,7 +221,7 @@
             this.LblPersonelSayisi.Appearance.ForeColor = System.Drawing.Color.White;
             this.LblPersonelSayisi.Appearance.Options.UseFont = true;
             this.LblPersonelSayisi.Appearance.Options.UseForeColor = true;
-            this.LblPersonelSayisi.Location = new System.Drawing.Point(117, 82);
+            this.LblPersonelSayisi.Location = new System.Drawing.Point(128, 82);
             this.LblPersonelSayisi.Name = "LblPersonelSayisi";
             this.LblPersonelSayisi.Size = new System.Drawing.Size(16, 36);
             this.LblPersonelSayisi.TabIndex = 1;
@@ -233,7 +233,7 @@
             this.labelControl8.Appearance.ForeColor = System.Drawing.Color.White;
             this.labelControl8.Appearance.Options.UseFont = true;
             this.labelControl8.Appearance.Options.UseForeColor = true;
-            this.labelControl8.Location = new System.Drawing.Point(93, 37);
+            this.labelControl8.Location = new System.Drawing.Point(101, 37);
             this.labelControl8.Name = "labelControl8";
             this.labelControl8.Size = new System.Drawing.Size(63, 21);
             this.labelControl8.TabIndex = 0;
@@ -258,7 +258,7 @@
             this.LblToplamStok.Appearance.ForeColor = System.Drawing.Color.White;
             this.LblToplamStok.Appearance.Options.UseFont = true;
             this.LblToplamStok.Appearance.Options.UseForeColor = true;
-            this.LblToplamStok.Location = new System.Drawing.Point(25, 82);
+            this.LblToplamStok.Location = new System.Drawing.Point(114, 82);
             this.LblToplamStok.Name = "LblToplamStok";
             this.LblToplamStok.Size = new System.Drawing.Size(16, 36);
             this.LblToplamStok.TabIndex = 1;
@@ -295,7 +295,7 @@
             this.LblBeyazEsya.Appearance.ForeColor = System.Drawing.Color.White;
             this.LblBeyazEsya.Appearance.Options.UseFont = true;
             this.LblBeyazEsya.Appearance.Options.UseForeColor = true;
-            this.LblBeyazEsya.Location = new System.Drawing.Point(25, 82);
+            this.LblBeyazEsya.Location = new System.Drawing.Point(111, 82);
             this.LblBeyazEsya.Name = "LblBeyazEsya";
             this.LblBeyazEsya.Size = new System.Drawing.Size(16, 36);
             this.LblBeyazEsya.TabIndex = 1;
@@ -307,7 +307,7 @@
             this.Label12.Appearance.ForeColor = System.Drawing.Color.White;
             this.Label12.Appearance.Options.UseFont = true;
             this.Label12.Appearance.Options.UseForeColor = true;
-            this.Label12.Location = new System.Drawing.Point(42, 37);
+            this.Label12.Location = new System.Drawing.Point(65, 37);
             this.Label12.Name = "Label12";
             this.Label12.Size = new System.Drawing.Size(136, 21);
             this.Label12.TabIndex = 0;
@@ -369,7 +369,7 @@
             this.LblKritikSeviye.Appearance.ForeColor = System.Drawing.Color.White;
             this.LblKritikSeviye.Appearance.Options.UseFont = true;
             this.LblKritikSeviye.Appearance.Options.UseForeColor = true;
-            this.LblKritikSeviye.Location = new System.Drawing.Point(25, 82);
+            this.LblKritikSeviye.Location = new System.Drawing.Point(128, 73);
             this.LblKritikSeviye.Name = "LblKritikSeviye";
             this.LblKritikSeviye.Size = new System.Drawing.Size(16, 36);
             this.LblKritikSeviye.TabIndex = 1;
@@ -406,7 +406,7 @@
             this.LblEnYuksekFiyatliurun.Appearance.ForeColor = System.Drawing.Color.White;
             this.LblEnYuksekFiyatliurun.Appearance.Options.UseFont = true;
             this.LblEnYuksekFiyatliurun.Appearance.Options.UseForeColor = true;
-            this.LblEnYuksekFiyatliurun.Location = new System.Drawing.Point(25, 82);
+            this.LblEnYuksekFiyatliurun.Location = new System.Drawing.Point(34, 82);
             this.LblEnYuksekFiyatliurun.Name = "LblEnYuksekFiyatliurun";
             this.LblEnYuksekFiyatliurun.Size = new System.Drawing.Size(16, 36);
             this.LblEnYuksekFiyatliurun.TabIndex = 1;
@@ -443,7 +443,7 @@
             this.LblEnDusukFiyatliurun.Appearance.ForeColor = System.Drawing.Color.White;
             this.LblEnDusukFiyatliurun.Appearance.Options.UseFont = true;
             this.LblEnDusukFiyatliurun.Appearance.Options.UseForeColor = true;
-            this.LblEnDusukFiyatliurun.Location = new System.Drawing.Point(25, 82);
+            this.LblEnDusukFiyatliurun.Location = new System.Drawing.Point(31, 82);
             this.LblEnDusukFiyatliurun.Name = "LblEnDusukFiyatliurun";
             this.LblEnDusukFiyatliurun.Size = new System.Drawing.Size(16, 36);
             this.LblEnDusukFiyatliurun.TabIndex = 1;
@@ -480,7 +480,7 @@
             this.LblEnCokStok.Appearance.ForeColor = System.Drawing.Color.White;
             this.LblEnCokStok.Appearance.Options.UseFont = true;
             this.LblEnCokStok.Appearance.Options.UseForeColor = true;
-            this.LblEnCokStok.Location = new System.Drawing.Point(25, 82);
+            this.LblEnCokStok.Location = new System.Drawing.Point(26, 82);
             this.LblEnCokStok.Name = "LblEnCokStok";
             this.LblEnCokStok.Size = new System.Drawing.Size(16, 36);
             this.LblEnCokStok.TabIndex = 1;
@@ -492,7 +492,7 @@
             this.a.Appearance.ForeColor = System.Drawing.Color.White;
             this.a.Appearance.Options.UseFont = true;
             this.a.Appearance.Options.UseForeColor = true;
-            this.a.Location = new System.Drawing.Point(25, 37);
+            this.a.Location = new System.Drawing.Point(50, 37);
             this.a.Name = "a";
             this.a.Size = new System.Drawing.Size(177, 21);
             this.a.TabIndex = 0;
@@ -517,7 +517,7 @@
             this.LblEnAzStok.Appearance.ForeColor = System.Drawing.Color.White;
             this.LblEnAzStok.Appearance.Options.UseFont = true;
             this.LblEnAzStok.Appearance.Options.UseForeColor = true;
-            this.LblEnAzStok.Location = new System.Drawing.Point(25, 82);
+            this.LblEnAzStok.Location = new System.Drawing.Point(30, 82);
             this.LblEnAzStok.Name = "LblEnAzStok";
             this.LblEnAzStok.Size = new System.Drawing.Size(16, 36);
             this.LblEnAzStok.TabIndex = 1;

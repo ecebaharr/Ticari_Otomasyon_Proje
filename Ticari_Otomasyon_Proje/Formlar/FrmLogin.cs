@@ -44,6 +44,7 @@ namespace Ticari_Otomasyon_Proje.Formlar
                 frm.Show();
                 this.Hide();
             }
+            
             else
             {
                 hak--;
@@ -57,6 +58,7 @@ namespace Ticari_Otomasyon_Proje.Formlar
                 }
             }
 
+
         }
 
         private void btncikis_Click(object sender, EventArgs e)
@@ -69,6 +71,18 @@ namespace Ticari_Otomasyon_Proje.Formlar
             Formlar.FrmSifremiUnuttum frm = new Formlar.FrmSifremiUnuttum();
 
             frm.Show();
+        }
+
+        private void FrmLogin_Load(object sender, EventArgs e)
+        {
+            this.KeyPreview = true;
+        }
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) // Enter tuşuna basıldığında
+            {
+                BtnGiris.PerformClick(); // Giriş Yap butonuna tıklanmış gibi çalıştır
+            }
         }
     }
 }

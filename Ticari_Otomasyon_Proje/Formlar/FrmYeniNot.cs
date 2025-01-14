@@ -26,7 +26,14 @@ namespace Ticari_Otomasyon_Proje.Formlar
         DbTicariOtomasyonEntities db= new DbTicariOtomasyonEntities ();
         private void FrmYeniNot_Load(object sender, EventArgs e)
         {
-            
+            this.KeyPreview = true;
+        }
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) // Enter tuşuna basıldığında
+            {
+                BtnEkle.PerformClick(); // Giriş Yap butonuna tıklanmış gibi çalıştır
+            }
         }
 
         private void BtnEkle_Click(object sender, EventArgs e)

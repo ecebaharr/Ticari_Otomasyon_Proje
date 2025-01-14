@@ -9,6 +9,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using Ticari_Otomasyon_Proje.Entity;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 
 namespace Ticari_Otomasyon_Proje.Formlar
 {
@@ -28,6 +29,15 @@ namespace Ticari_Otomasyon_Proje.Formlar
                                                      x.ID,
                                                      x.KATEGORİAD
                                                  }).ToList();
+           
+            this.KeyPreview = true;
+        }
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) // Enter tuşuna basıldığında
+            {
+                BtnKaydet.PerformClick(); // Giriş Yap butonuna tıklanmış gibi çalıştır
+            }
         }
 
         private void BtnKaydet_Click(object sender, EventArgs e)

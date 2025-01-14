@@ -125,6 +125,8 @@
             this.lookUpEdit1.Properties.Appearance.Options.UseForeColor = true;
             this.lookUpEdit1.Properties.Buttons.AddRange(new DevExpress.XtraEditors.Controls.EditorButton[] {
             new DevExpress.XtraEditors.Controls.EditorButton(DevExpress.XtraEditors.Controls.ButtonPredefines.Combo)});
+            this.lookUpEdit1.Properties.DisplayMember = "KATEGORİAD";
+            this.lookUpEdit1.Properties.ValueMember = "ID";
             this.lookUpEdit1.Size = new System.Drawing.Size(384, 28);
             this.lookUpEdit1.TabIndex = 6;
             // 
@@ -160,6 +162,7 @@
             // 
             // FrmUrunEkle
             // 
+            this.AcceptButton = this.BtnKaydet;
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkCyan;

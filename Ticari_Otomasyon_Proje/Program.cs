@@ -17,7 +17,7 @@ namespace Ticari_Otomasyon_Proje
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FrmLogin());
+            Application.Run(new Form1());
         }
     }
 }

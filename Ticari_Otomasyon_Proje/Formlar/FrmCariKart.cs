@@ -28,9 +28,17 @@ namespace Ticari_Otomasyon_Proje.Formlar
                                                       x.ID,
                                                       x.SEHIR
                                                   }).ToList();
+            this.KeyPreview = true;
 
         }
-        
+        private void Form1_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter) // Enter tuşuna basıldığında
+            {
+                BtnEkle.PerformClick(); // Giriş Yap butonuna tıklanmış gibi çalıştır
+            }
+        }
+
 
         private void lookUpEditIl_EditValueChanged_1(object sender, EventArgs e)
         {

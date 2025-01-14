@@ -128,7 +128,7 @@
             this.webView21.DefaultBackgroundColor = System.Drawing.Color.White;
             this.webView21.Location = new System.Drawing.Point(878, 29);
             this.webView21.Name = "webView21";
-            this.webView21.Size = new System.Drawing.Size(429, 553);
+            this.webView21.Size = new System.Drawing.Size(444, 553);
             this.webView21.TabIndex = 5;
             this.webView21.ZoomFactor = 1D;
             this.webView21.Click += new System.EventHandler(this.webView21_Click);
@@ -192,7 +192,7 @@
             // 
             // groupControl5
             // 
-            this.groupControl5.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(224)))), ((int)(((byte)(224)))), ((int)(((byte)(224)))));
+            this.groupControl5.Appearance.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(224)))), ((int)(((byte)(192)))));
             this.groupControl5.Appearance.Options.UseBackColor = true;
             this.groupControl5.AppearanceCaption.Font = new System.Drawing.Font("Tahoma", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.groupControl5.AppearanceCaption.Options.UseFont = true;
@@ -200,7 +200,7 @@
             this.groupControl5.GroupStyle = DevExpress.Utils.GroupStyle.Title;
             this.groupControl5.Location = new System.Drawing.Point(878, -1);
             this.groupControl5.Name = "groupControl5";
-            this.groupControl5.Size = new System.Drawing.Size(433, 30);
+            this.groupControl5.Size = new System.Drawing.Size(444, 30);
             this.groupControl5.TabIndex = 9;
             this.groupControl5.Text = "Kurlar";
             this.groupControl5.Paint += new System.Windows.Forms.PaintEventHandler(this.groupControl5_Paint);
@@ -223,7 +223,6 @@
             this.Name = "FrmAnaForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;
             this.Text = "Günlük Özet";
-            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.FrmAnaForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.gridControl1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.gridView1)).EndInit();

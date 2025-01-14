@@ -68,8 +68,8 @@
             // 
             // btnQRolustur
             // 
-            this.btnQRolustur.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
-            this.btnQRolustur.Location = new System.Drawing.Point(16, 336);
+            this.btnQRolustur.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnQRolustur.ImageOptions.Image")));
+            this.btnQRolustur.Location = new System.Drawing.Point(32, 336);
             this.btnQRolustur.Name = "btnQRolustur";
             this.btnQRolustur.Size = new System.Drawing.Size(131, 39);
             this.btnQRolustur.TabIndex = 3;
@@ -78,8 +78,8 @@
             // 
             // QRcozumle
             // 
-            this.QRcozumle.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image1")));
-            this.QRcozumle.Location = new System.Drawing.Point(188, 336);
+            this.QRcozumle.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("QRcozumle.ImageOptions.Image")));
+            this.QRcozumle.Location = new System.Drawing.Point(169, 336);
             this.QRcozumle.Name = "QRcozumle";
             this.QRcozumle.Size = new System.Drawing.Size(131, 39);
             this.QRcozumle.TabIndex = 4;
